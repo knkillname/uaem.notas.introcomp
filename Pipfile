@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "~=6.29"
+matplotlib = "~=3.10"
+numpy = "~=2.2"
+pandas = "~=2.2"
+scipy = "~=1.14"
+sympy = "~=1.13"
+
+[dev-packages]
+black = "*"
+isort = "*"
+mypy = "*"
+pandas-stubs = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.12"
