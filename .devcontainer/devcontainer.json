@@ -3,5 +3,20 @@
 {
 	"name": "Python 3",
 	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
-	"postCreateCommand": "mkdir .venv && pipenv install --dev"
+	"postCreateCommand": "mkdir --parents .venv && pipenv install --dev",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"DavidAnson.vscode-markdownlint",
+				"ms-python.black-formatter",
+				"ms-python.isort",
+				"ms-python.mypy-type-checker",
+				"ms-python.pylint",
+				"ms-toolsai.jupyter",
+				"streetsidesoftware.code-spell-checker",
+				"yzhang.markdown-all-in-one",
+				"streetsidesoftware.code-spell-checker-spanish"
+			]
+		}
+	}
 }
