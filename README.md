@@ -78,11 +78,14 @@ Repositorio del curso de computación para primer semestre de la licenciatura en
 
 ```plaintext
 uaem.notas.introcomp/
-├── 📁 notas/
+├── 📁 cuadernos/
 │   ├── 📘 1.Introducción.ipynb            # ¡Empieza aquí!
 │   ├── 📘 2-3.Fundamentos_Python.ipynb
 │   ├── ...                                # Para cuando termines el curso habrá 15 clases
-├── 📁 documentos/
+├── 📁 prácticas/
+│   ├── 📄 1.JupyterNotebooks.md           # Guía de prácticas
+│   ├── ...
+├── 📁 recursos/
 │   ├── 📄 temario.md                      # Temario del curso
 │   ├── 📄 rubricas.md                     # Rúbricas de evaluación
 │   └── ...
