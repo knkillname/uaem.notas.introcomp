@@ -1,155 +1,162 @@
-# Temario (15 clases de 5 horas)
+# Temario de Introducción a la Computación
 
-*Enfocado en primer semestre de matemáticas, con conceptos clave de computación y ejemplos accesibles.*  
+## Clase 1: Introducción a la Ciencia de la Computación
 
----
-
-## **Semana 1: Introducción a la Ciencia de la Computación (CC)**  
-
-- **Teoría:**  
-  - ¿Qué es la CC? Relación con las matemáticas (algoritmos vs demostraciones).  
-  - Historia breve: Euclides, Ada Lovelace, Turing.  
-- **Práctica:**  
-  - Configurar Jupyter Notebook y Python.  
-  - Ejercicio: Resolver \( ax + b = 0 \) con Python.  
-- **LLMs:**  
-  - Usar ChatGPT para investigar: "¿Qué es el algoritmo de Euclides?"  
+- **Historia y Protagonistas:**  
+  - Breve historia de la computación.  
+  - Figuras relevantes: Euclides, Turing, Von Neumann.
+- **Relación entre Matemáticas y Computación:**  
+  - Importancia de la abstracción y el razonamiento lógico.
+- **Herramientas Iniciales:**  
+  - Uso de Jupyter Notebook.  
+  - Primeros pasos en Python.
 
 ---
 
-## **Semanas 2-3: Fundamentos de Python para Matemáticas Básicas**  
+## Clase 2: Fundamentos de Python y la Biblioteca Estándar
 
-- **Variables, condicionales, bucles:**  
-  - Ejemplos: Sucesión de Fibonacci, suma de números naturales, verificar primos.  
-- **Funciones:**  
-  - Crear funciones para factorial, área de círculo, etc.  
-- **LLMs:**  
-  - Depurar código generado por Copilot (ej: función para MCD).  
-
----
-
-## **Semana 4: Estructuras de Datos con Aplicaciones Prácticas**  
-
-- **Listas y tuplas:**  
-  - Operaciones con conjuntos (unión, intersección).  
-  - Ejercicio: Criba de Eratóstenes simplificada.  
-- **Diccionarios:**  
-  - Simular lanzamientos de dados y contar frecuencias.  
+- **Conceptos Básicos de Python:**  
+  - Variables, tipos de datos y operaciones básicas.
+- **Funciones y Módulos:**  
+  - Uso de funciones integradas y definición de funciones simples.
+  - Introducción a módulos de la Biblioteca Estándar (por ejemplo, `math` y `string`).
 
 ---
 
-## **Semana 5: Álgebra Lineal Básica con NumPy**  
+## Clase 3: Condicionales y Control de Flujo
 
-- **Arrays y operaciones:**  
-  - Resolver sistemas \( 2x2 \) (ej: \( 3x + 2y = 5; x - y = 1 \)).  
-  - Calcular determinantes y trazas.  
-
----
-
-## **Semana 6: Visualización Matemática (Matplotlib)**  
-
-- **Gràficos 2D:**  
-  - Graficar funciones lineales y cuadráticas.  
-- **Histogramas:**  
-  - Simular distribuciones de probabilidad (dados, monedas).  
+- **Estructuras Condicionales:**  
+  - Uso de `if`, `elif` y `else` para la toma de decisiones.
+- **Aplicaciones Prácticas:**  
+  - Ejercicios que involucran decisiones lógicas en problemas matemáticos y algorítmicos.
 
 ---
 
-## **Semana 7: Algoritmos y Reducción de Problemas**  
+## Clase 4: Recursividad
 
-- **Búsqueda binaria y ordenamiento burbuja.**  
-- **Reducción:**  
-  - Ejemplo: Multiplicación como suma iterada.  
-  - Actividad: Implementar recursión para factorial (\( n! = n \times (n-1)! \)).  
-- **Reflexión:**  
-  - "Reducción en demostraciones matemáticas (inducción vs recursión)".  
-
----
-
-## **Semana 8: Cálculo Simbólico con SymPy**  
-
-- **Derivadas y ecuaciones algebraicas:**  
-  - Calcular derivadas de \( x^2 \), resolver \( x^2 - 5x + 6 = 0 \).  
-- **Reducción aplicada:**  
-  - Factorizar ecuaciones para simplificar soluciones.  
+- **Concepto de Recursión:**  
+  - Definición, casos base y casos recursivos.
+- **Ejemplos Clásicos:**  
+  - Cálculo del factorial.
+  - Serie de Fibonacci.
+- **Análisis del Proceso Recursivo:**  
+  - Funcionamiento de la pila de llamadas.
 
 ---
 
-## **Semana 9: Combinatoria y Probabilidad con Python**  
+## Clase 5: Iteración
 
-- **Combinaciones y permutaciones:**  
-  - Calcular \( C(n, k) \) y \( P(n, k) \).  
-- **Simulación:**  
-  - Paradoja del cumpleaños (¿cuántas personas para >50% de coincidencia?).  
-
----
-
-## **Semana 10: Colaboración con Git/GitHub**  
-
-- **Subir código:**  
-  - Repositorio para tareas (ej: código de primos o MCD).  
-- **Trabajo en equipo:**  
-  - Fusionar soluciones a un problema de combinatoria.  
+- **Introducción a la Iteración:**  
+  - Uso de ciclos `for` y `while`.
+- **Comparación con la Recursión:**  
+  - Ventajas y aplicaciones de la iteración.
+- **Ejercicios:**  
+  - Aproximación de $\pi$, cálculo de sumatorias y series mediante iteración.
 
 ---
 
-## **Semana 11: Límites de la Computación (Incomputabilidad)**  
+## Clase 6: Inducción Fuerte y Técnicas de Demostración
 
-- **Problema de la parada (Halting Problem):**  
-  - Demostración en Python: Función `detiene(f, input)` que no puede existir.  
-  - Ejemplo: Bucle infinito vs predicción de terminación.  
-- **Relación con lógica matemática:**  
-  - Breve mención a paradojas y teoremas de incompletitud de Gödel.  
-
----
-
-## **Semana 12: LLMs como Asistentes de Programación**  
-
-- **Taller crítico:**  
-  - Generar código con ChatGPT para resolver \( ax^2 + bx + c = 0 \).  
-  - Validar soluciones con SymPy.  
-- **Análisis de errores:**  
-  - Casos límite (ej: \( a = 0 \), raíces complejas).  
+- **Repaso de Inducción Matemática Simple:**  
+  - Conceptos y ejemplos básicos.
+- **Introducción a la Inducción Fuerte:**  
+  - Comparación entre inducción simple e inducción fuerte.
+- **Aplicaciones y Demostraciones:**  
+  - Uso de la inducción fuerte en demostraciones de propiedades numéricas y algoritmos.
+- **Ejercicios:**  
+  - Problemas que requieren el uso de inducción fuerte para su demostración.
 
 ---
 
-## **Semanas 13-14: Proyecto Final Integrador**  
+## Clase 7: Estructuras de Datos Básicas y Aplicaciones
 
-- **Temas (ejemplos):**  
-  1. Análisis gráfico de funciones y sus derivadas.  
-  2. Simulación de la paradoja del cumpleaños.  
-  3. Conjetura de Collatz: ¿Siempre se llega a 1?  
-- **Requerimientos:**  
-  - Usar Jupyter, Git, y al menos una biblioteca (NumPy/SymPy/Matplotlib).  
-  - Documentar uso de LLMs (ej: "Copilot me ayudó a optimizar el gráfico").  
-
----
-
-## **Semana 15: Presentaciones y Ética en la Computación**  
-
-- **Exposición de proyectos:**  
-  - Demostrar código y resultados en Jupyter.  
-- **Debate:**  
-  - "¿Pueden los LLMs reemplazar el pensamiento matemático creativo?".  
+- **Manejo de Estructuras de Datos en Python:**  
+  - Listas, pilas y diccionarios: operaciones básicas y manipulación.
+- **Aplicaciones Prácticas:**  
+  - Uso de la Biblioteca Estándar para transformar y analizar datos.
+- **Ejercicios:**  
+  - Problemas de conteo y manipulación de secuencias y estructuras anidadas.
 
 ---
 
-## **Evaluación**  
+## Clase 8: Numpy y Álgebra Lineal
 
-- **Tareas semanales (50%):**  
-  - Ejercicios en Jupyter + reflexiones sobre LLMs (ej: "¿Cómo reduje el problema X?").  
-- **Proyecto final (40%):**  
-  - Claridad, integración de herramientas, documentación de LLMs.  
-- **Participación (10%):**  
-  - Contribuciones en clase y uso crítico de IA.  
+- **Introducción a Numpy:**  
+  - Creación y manejo de arrays.
+- **Aplicaciones en Álgebra Lineal:**  
+  - Sistemas de ecuaciones, multiplicación de matrices.
+- **Ejercicios:**  
+  - Implementación del método de Gauss-Jordan para la resolución de sistemas lineales.
 
 ---
 
-## **Recursos Clave**  
+## Clase 9: Introducción a Pandas
 
-- **Herramientas:** Jupyter, SymPy, NumPy, Matplotlib, GitHub.  
-- **Lecturas:**  
-  - Artículos breves sobre el problema de la parada y reducción en matemáticas.  
-  - Ejemplos de código con notas explicativas (en un repositorio de clase).  
-- **LLMs:**  
-  - Prompts útiles para ChatGPT: "Explica el algoritmo de Euclides en Python", "Depura este código para calcular primos".  
+- **Manejo de Datos con Pandas:**  
+  - Creación y manipulación de DataFrames y Series.
+- **Aplicaciones en Estadística:**  
+  - Cálculo de medidas estadísticas (media, varianza, correlación).
+- **Ejercicios:**  
+  - Procesamiento y análisis de conjuntos de datos reales.
+
+---
+
+## Clase 10: Visualización Matemática con Matplotlib
+
+- **Creación de Gráficos:**  
+  - Gráficos 2D y 3D: funciones, histogramas, diagramas de dispersión.
+- **Visualización de Resultados:**  
+  - Uso de Matplotlib para representar datos y resultados de cálculos.
+- **Ejercicios:**  
+  - Graficar funciones complejas, fractales y visualizaciones de datos estadísticos.
+
+---
+
+## Clase 11: Algoritmos Clásicos y Complejidad Computacional
+
+- **Algoritmos de Búsqueda y Ordenamiento:**  
+  - Búsqueda binaria.  
+  - Algoritmos de ordenamiento: burbuja, selección, entre otros.
+- **Análisis de Eficiencia:**  
+  - Introducción a la notación Big-O.  
+  - Medición del rendimiento con herramientas de la Biblioteca Estándar (por ejemplo, el módulo `time`).
+- **Ejercicios:**  
+  - Implementación y comparación de distintos algoritmos en función de su complejidad y tiempos de ejecución.
+
+---
+
+## Clase 12: SymPy y Cálculo Simbólico
+
+- **Manipulación Simbólica:**  
+  - Uso de SymPy para el manejo de expresiones matemáticas.
+- **Cálculo Simbólico:**  
+  - Derivadas, integrales y límites.
+- **Ejercicios:**  
+  - Resolver ecuaciones diferenciales simples y demostrar propiedades de funciones de forma simbólica.
+
+---
+
+## Clase 13: Simulación y Animación: El Péndulo
+
+- **Modelado del Movimiento del Péndulo:**  
+  - Ecuaciones diferenciales que describen el movimiento de un péndulo simple.
+- **Métodos Numéricos:**  
+  - Técnicas como el método de Euler o Runge-Kutta para la solución de las ecuaciones de movimiento.
+- **Animación y Visualización:**  
+  - Uso del módulo `animation` de Matplotlib o de Pygame para animar la simulación.
+- **Ejercicios:**  
+  - Implementar la simulación del péndulo, experimentar con parámetros (longitud, gravedad, ángulo inicial) y analizar el comportamiento dinámico del sistema.
+
+---
+
+## Clases 14 y 15: Repaso, Presentaciones Finales y Cierre
+
+- **Revisión Integral:**  
+  - Repaso de los conceptos clave: condicionales, iteración, recursión, estructuras de datos, y uso de la Biblioteca Estándar.
+- **Resolución de Ejercicios Desafiantes:**  
+  - Problemas tipo Project Euler y simulaciones matemáticas.
+- **Espacio para Discusión y Retroalimentación:**  
+  - Preguntas, aclaración de dudas y debate sobre la aplicación de los fundamentos matemáticos y computacionales.
+- **Actividades Finales:**  
+  - Presentación de proyectos o simulaciones desarrolladas durante el curso.  
+  - Reflexión sobre la importancia de estos fundamentos en la resolución de problemas reales.
