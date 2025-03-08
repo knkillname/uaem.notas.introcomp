@@ -1,7 +1,5 @@
 # Temario de Computación para estudiantes de Ciencias
 
----
-
 ## Clase 1: Introducción a la Ciencia de la Computación
 
 - **Historia y Protagonistas:**
@@ -13,8 +11,6 @@
   - Uso de Jupyter Notebook.
   - Primeros pasos en Python.
 
----
-
 ## Clase 2: Fundamentos de Python y la Biblioteca Estándar
 
 - **Conceptos Básicos de Python:**
@@ -23,16 +19,12 @@
   - Uso de funciones integradas y definición de funciones simples.
   - Introducción a módulos de la Biblioteca Estándar (por ejemplo, `math` y `string`).
 
----
-
 ## Clase 3: Condicionales y Control de Flujo
 
 - **Estructuras Condicionales:**
   - Uso de `if`, `elif` y `else` para la toma de decisiones.
 - **Aplicaciones Prácticas:**
   - Ejercicios que involucran decisiones lógicas en problemas matemáticos y algorítmos, incluyendo validaciones de datos y estructuras condicionales anidadas.
-
----
 
 ## Clase 4: Recursividad
 
@@ -43,8 +35,6 @@
 - **Análisis del Proceso Recursivo:**
   - Funcionamiento de la pila de llamadas.
 
----
-
 ## Clase 5: Iteración
 
 - **Introducción a la Iteración:**
@@ -54,8 +44,6 @@
 - **Ejercicios:**
   - Aproximación de $\pi$, cálculo de sumatorias y series mediante iteración.
 
----
-
 ## Clase 6: Estructuras de Datos Básicas y Aplicaciones
 
 - **Manejo de Estructuras de Datos:**
@@ -64,8 +52,6 @@
   - Uso de la Biblioteca Estándar para transformar y analizar datos.
 - **Ejercicios:**
   - Problemas de conteo y manipulación de secuencias y estructuras anidadas.
-
----
 
 ## Clase 7: Programación Orientada a Objetos
 
@@ -79,8 +65,6 @@
 - **Ejercicios:**
   - Definir una clase que represente un objeto de interés.
 
----
-
 ## Clase 8: Algoritmos Clásicos y Complejidad Computacional
 
 - **Algoritmos de Búsqueda y Ordenamiento:**
@@ -90,8 +74,6 @@
   - Medición del rendimiento usando herramientas de la Biblioteca Estándar (por ejemplo, el módulo `time`).
 - **Ejercicios:**
   - Implementar y comparar diferentes algoritmos en función de su complejidad y tiempos de ejecución.
-
----
 
 ## Clase 9: Visualización Matemática con Matplotlib
 
@@ -108,8 +90,6 @@
   - Crear un histograma a partir de un conjunto de datos.
   - Implementar una visualización interactiva con `ipywidgets`.
 
----
-
 ## Clase 10: Manejo de Datos con Pandas
 
 - Creación y manipulación de DataFrames y Series.
@@ -118,21 +98,7 @@
 - **Ejercicios:**
   - Procesamiento y análisis de conjuntos de datos reales.
 
----
-
-## Clase 11: Algoritmos Clásicos y Complejidad Computacional
-
-- **Algoritmos de Búsqueda y Ordenamiento:**
-  - Búsqueda binaria, ordenamientos como burbuja, selección, entre otros.
-- **Análisis de Eficiencia:**
-  - Introducción a la notación Big-O.
-  - Medición del rendimiento usando herramientas de la Biblioteca Estándar (por ejemplo, el módulo `time`).
-- **Ejercicios:**
-  - Implementar y comparar diferentes algoritmos en función de su complejidad y tiempos de ejecución.
-
----
-
-## Clase 12: SymPy y Cálculo Simbólico
+## Clase 11: SymPy y Cálculo Simbólico
 
 - **Manipulación Simbólica:**
   - Uso de SymPy para el manejo de expresiones matemáticas.
@@ -141,9 +107,7 @@
 - **Ejercicios:**
   - Resolver ecuaciones diferenciales simples y demostrar propiedades de funciones de forma simbólica.
 
----
-
-## Clase 13: Simulación y Animación: El Péndulo
+## Clase 12: Simulación y Animación: El Péndulo
 
 - **Modelado del Movimiento del Péndulo:**
   - Ecuaciones diferenciales que describen el movimiento de un péndulo simple.
@@ -154,7 +118,21 @@
 - **Ejercicios:**
   - Implementar la simulación del péndulo y analizar su comportamiento.
 
----
+## Clase 13: Grafos con NetworkX y Redes Aleatorias
+
+- **Introducción a los Grafos:**
+  - Conceptos básicos: nodos, aristas, grafos dirigidos y no dirigidos.
+- **Uso de NetworkX:**
+  - Creación y manipulación de grafos con la biblioteca NetworkX.
+- **Análisis de Grafos:**
+  - Cálculo de propiedades como grado, centralidad y caminos más cortos.
+- **Redes Aleatorias:**
+  - Generación de grafos aleatorios y modelos de redes (por ejemplo, Erdős-Rényi).
+- **Visualización de Grafos:**
+  - Representación gráfica de grafos utilizando Matplotlib y NetworkX.
+- **Ejercicios:**
+  - Crear y analizar un grafo simple.
+  - Generar y visualizar una red aleatoria.
 
 ## Clases 14 y 15: Repaso y Presentaciones Finales
 
@@ -164,6 +142,3 @@
   - Exposición de simulaciones o aplicaciones desarrolladas por los estudiantes.
 - **Reflexión Final:**
   - Debate sobre la importancia de la computación en las ciencias.
-
----
-
