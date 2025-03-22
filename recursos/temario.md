@@ -53,7 +53,22 @@
 - **Ejercicios:**
   - Problemas de conteo y manipulación de secuencias y estructuras anidadas.
 
-## Clase 7: Programación Orientada a Objetos
+## Clase 7: Manejo de Texto, y Archivos
+
+- **Manejo de Texto:**
+  - Operaciones básicas con cadenas de texto.
+  - Uso de expresiones regulares para búsqueda y manipulación de texto.
+- **Manejo de Archivos:**
+  - Lectura y escritura de archivos de texto y binarios.
+  - Uso de context managers (`with` statement) para manejo seguro de archivos.
+- **Bases de Datos:**
+  - Introducción a `shelve` para almacenamiento persistente de objetos.
+  - Uso de `sqlite3` para manejo de bases de datos relacionales.
+- **Ejercicios:**
+  - Procesamiento de archivos de texto para extracción de información.
+  - Implementación de una base de datos simple usando `sqlite3`.
+
+## Clase 8: Programación Orientada a Objetos
 
 - **Conceptos Básicos de OOP:**
   - Definición de clases y objetos.
@@ -65,17 +80,19 @@
 - **Ejercicios:**
   - Definir una clase que represente un objeto de interés.
 
-## Clase 8: Algoritmos Clásicos y Complejidad Computacional
+## Clase 9: Diseño de Algoritmos
 
-- **Algoritmos de Búsqueda y Ordenamiento:**
-  - Búsqueda binaria, ordenamientos como burbuja, selección, entre otros.
-- **Análisis de Eficiencia:**
-  - Introducción a la notación Big-O.
-  - Medición del rendimiento usando herramientas de la Biblioteca Estándar (por ejemplo, el módulo `time`).
+- **Introducción al Diseño de Algoritmos:**
+  - Conceptos básicos y técnicas de diseño.
+  - Algoritmos voraces, divide y vencerás, programación dinámica.
+- **Ejemplos Clásicos:**
+  - Problema del cambio de monedas, mochila, y otros problemas clásicos.
+- **Análisis de Algoritmos:**
+  - Medición de la eficiencia y complejidad temporal y espacial.
 - **Ejercicios:**
-  - Implementar y comparar diferentes algoritmos en función de su complejidad y tiempos de ejecución.
+  - Implementación de algoritmos para resolver problemas específicos.
 
-## Clase 9: Visualización Matemática con Matplotlib
+## Clase 10: Visualización Matemática con Matplotlib
 
 - **Creación de Gráficos:**
   - Gráficos 2D y 3D: funciones, histogramas y diagramas de dispersión.
@@ -90,7 +107,7 @@
   - Crear un histograma a partir de un conjunto de datos.
   - Implementar una visualización interactiva con `ipywidgets`.
 
-## Clase 10: Manejo de Datos con Pandas
+## Clase 11: Manejo de Datos con Pandas
 
 - Creación y manipulación de DataFrames y Series.
 - **Aplicaciones en Estadística:**
@@ -98,7 +115,7 @@
 - **Ejercicios:**
   - Procesamiento y análisis de conjuntos de datos reales.
 
-## Clase 11: SymPy y Cálculo Simbólico
+## Clase 12: SymPy y Cálculo Simbólico
 
 - **Manipulación Simbólica:**
   - Uso de SymPy para el manejo de expresiones matemáticas.
@@ -107,7 +124,7 @@
 - **Ejercicios:**
   - Resolver ecuaciones diferenciales simples y demostrar propiedades de funciones de forma simbólica.
 
-## Clase 12: Simulación y Animación: El Péndulo
+## Clase 13: Simulación y Animación: El Péndulo
 
 - **Modelado del Movimiento del Péndulo:**
   - Ecuaciones diferenciales que describen el movimiento de un péndulo simple.
@@ -118,7 +135,7 @@
 - **Ejercicios:**
   - Implementar la simulación del péndulo y analizar su comportamiento.
 
-## Clase 13: Grafos con NetworkX y Redes Aleatorias
+## Clase 14: Grafos con NetworkX y Redes Aleatorias
 
 - **Introducción a los Grafos:**
   - Conceptos básicos: nodos, aristas, grafos dirigidos y no dirigidos.
@@ -134,7 +151,7 @@
   - Crear y analizar un grafo simple.
   - Generar y visualizar una red aleatoria.
 
-## Clases 14 y 15: Repaso y Presentaciones Finales
+## Clase 15: Repaso y Presentaciones Finales
 
 - **Revisión de Conceptos Clave:**
   - Repaso de los contenidos del curso mediante ejercicios desafiantes.
