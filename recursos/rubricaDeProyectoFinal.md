@@ -65,3 +65,65 @@
 24. [ ] **El cuaderno se ejecuta completamente sin errores** después de reiniciar el kernel. *(6 puntos)*  
 25. [ ] **Tiene al menos 10 celdas de código relevantes** (excluyendo celdas vacías o de prueba). *(5 puntos)*  
 26. [ ] **Se citan al menos dos referencias externas** (artículos, libros o tutoriales) relacionadas con el tema. *(4 puntos)*  
+
+## Ideas de Proyecto Final
+
+### 1. **Clase POO para el Grupo Simétrico y descomposición en ciclos**  
+
+- **Complejidad:** 🔴  
+- **Descripción:**  
+  Implementar una clase para representar permutaciones y descomponerlas en ciclos disjuntos. Requiere dominio de álgebra abstracta, diseño de métodos para operaciones grupales (composición, inversa) y validación de propiedades matemáticas.  
+
+### 2. **Programación lineal y algoritmo Simplex**  
+
+- **Complejidad:** 🔴  
+- **Descripción:**  
+  Crear un solver básico para problemas de optimización lineal. Involucra manipulación de tablas Simplex, pivotes y manejo de restricciones. Reto técnico: evitar ciclos infinitos y garantizar convergencia.  
+
+### 3. **Test de primalidad de Miller-Rabin**  
+
+- **Complejidad:** 🟡  
+- **Descripción:**  
+  Implementar un test probabilístico para detectar primos usando aritmética modular y exponenciación rápida. Ideal para aplicar recursividad y manejar números grandes.  
+
+### 4. **Triangulación de Delaunay**  
+
+- **Complejidad:** 🔴  
+- **Descripción:**  
+  Generar una triangulación de un conjunto de puntos que maximice los ángulos mínimos. Complejidad alta por la necesidad de algoritmos geométricos (ej. "divide y vencerás") y validación de la propiedad de Delaunay.  
+
+### 5. **Algoritmo de las K-medias**  
+
+- **Complejidad:** 🟡  
+- **Descripción:**  
+  Clustering de datos usando un enfoque iterativo. Requiere cálculo de centroides, métricas de distancia (Euclidiana) y visualización de resultados con Matplotlib.  
+
+### 6. **Algoritmo PageRank**  
+
+- **Complejidad:** 🟡  
+- **Descripción:**  
+  Simular el algoritmo de ranking de páginas web usando matrices de transición y cálculos de autovalores. Uso de NumPy para álgebra lineal y Pandas para manejar grafos grandes.  
+
+### 7. **Análisis de una red social (Facebook)**  
+
+- **Complejidad:** 🟢/🟡  
+- **Descripción:**  
+  Analizar métricas de redes (grado, betweenness, clustering) con NetworkX. Carga de datos desde CSV/JSON, visualización de grafos y detección de comunidades.  
+
+### 8. **Simulación de ondas en una cuerda con PDEs**  
+
+- **Complejidad:** 🔴  
+- **Descripción:**  
+  Resolver la ecuación de onda unidimensional usando métodos numéricos (diferencias finitas). Requiere POO para modelar la cuerda, NumPy para cálculos matriciales y Matplotlib para animar la propagación de ondas.  
+
+### 9. **Algoritmo genético para optimizar rutas de entrega**  
+
+- **Complejidad:** 🟡  
+- **Descripción:**  
+  Implementar operadores de selección, cruza y mutación para minimizar distancias. Incluye visualización de rutas óptimas, uso de Pandas para datos de ubicaciones y análisis de convergencia del algoritmo.  
+
+### 10. **Predicción de series temporales en mercados financieros**  
+
+- **Complejidad:** 🟡  
+- **Descripción:**  
+  Aplicar modelos ARIMA o suavizado exponencial con `statsmodels` y Pandas. Generar gráficos interactivos con Matplotlib, validar predicciones y documentar métricas de error (MAE, RMSE).  
