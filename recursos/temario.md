@@ -151,9 +151,6 @@
   * **SciPy**
     * Introducción general a SciPy y sus principales módulos.
     * Ejemplos prácticos seleccionados de `scipy.stats` (e.g., distribuciones, test de hipótesis simple) o `scipy.optimize` (e.g., ajuste de curvas básico, minimización de funciones).
-  * **Proyecto Final**
-    * Presentación detallada de los requisitos y alcance del proyecto final.
-    * Sugerencias de temas y discusión inicial.
 
 ## Clase 13: Taller de Proyecto Final y Repaso General
 
