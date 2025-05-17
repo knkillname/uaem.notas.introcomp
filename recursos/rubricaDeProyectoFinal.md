@@ -5,8 +5,8 @@
 ### **1. Estructura y Presentación** **(15 puntos)**  
 
 1. [ ] **El cuaderno incluye una sección de introducción** que explica el tema elegido y su relevancia en física/matemáticas computacionales. *(5 puntos)*  
-2. [ ] **Las celdas de código y Markdown están organizadas secuencialmente**, con explicaciones lógicas y formato profesional (títulos, subtítulos, listas). *(6 puntos)*  
-3. [ ] **Se muestran gráficos incrustados** (ej. Matplotlib) o **fórmulas matemáticas en LaTeX** dentro del cuaderno. *(4 puntos)*  
+2. [ ] **Las celdas de código y Markdown están organizadas secuencialmente**, con explicaciones lógicas y formato profesional (títulos, subtítulos, listas). *(4 puntos)*  
+3. [ ] **Se muestran gráficos incrustados** (ej. Matplotlib) o **fórmulas matemáticas en LaTeX** dentro del cuaderno. *(6 puntos)*  
 
 ---
 
