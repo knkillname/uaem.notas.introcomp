@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="572pt" height="568pt" version="1.1" viewBox="0 0 572 568" xmlns="http://www.w3.org/2000/svg">
+ <g class="graph" transform="scale(1) translate(4 564)">
+  <title>Flowchart_Decision_DiagramaDeFlujo</title>
+  <polygon points="-4 4 -4 -564 568 -564 568 4" fill="#fff" stroke="transparent"/>
+  <g class="node">
+   <title>A</title>
+   <ellipse cx="252" cy="-542" rx="27" ry="18" fill="#f9f9f9" stroke="#000"/>
+   <text x="252" y="-539.5" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Inicio</text>
+  </g>
+  <g class="node">
+   <title>B</title>
+   <path d="m240.4-483.95-90.8 23.9c-5.8 1.52-5.8 4.58 0 6.1l90.8 23.9c5.8 1.52 17.4 1.52 23.2 0l90.8-23.9c5.8-1.52 5.8-4.58 0-6.1l-90.8-23.9c-5.8-1.52-17.4-1.52-23.2 0" fill="#e8d4a9" stroke="#000"/>
+   <text x="252" y="-460" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">¿Algoritmo simple y</text>
+   <text x="252" y="-449" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">secuencia primordial?</text>
+  </g>
+  <g class="edge">
+   <title>A-&gt;B</title>
+   <path d="m252-523.8v26.25" fill="none" stroke="#000"/>
+   <polygon points="255.5 -497.27 252 -487.27 248.5 -497.27" stroke="#000"/>
+  </g>
+  <g class="node">
+   <title>C</title>
+   <path d="m117.31-378.28-105.62 24.56c-5.85 1.36-5.85 4.08 0 5.44l105.62 24.56c5.85 1.36 17.53 1.36 23.38 0l105.62-24.56c5.85-1.36 5.85-4.08 0-5.44l-105.62-24.56c-5.85-1.36-17.53-1.36-23.38 0" fill="#e8d4a9" stroke="#000"/>
+   <text x="129" y="-354" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">¿Audiencia se beneficia</text>
+   <text x="129" y="-343" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">de lo visual / No experta?</text>
+  </g>
+  <g class="edge">
+   <title>B-&gt;C</title>
+   <path d="m225.61-433.69c-17.99 15.21-42.01 35.52-61.6 52.09" fill="none" stroke="#000"/>
+   <polygon points="166.09 -378.78 156.19 -374.99 161.57 -384.12" stroke="#000"/>
+   <text x="198.5" y="-401.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">Sí</text>
+  </g>
+  <g class="node">
+   <title>H</title>
+   <path d="m282.77-270.78-86.54 32.56c-5.61 2.11-5.61 6.33 0 8.44l86.54 32.56c5.61 2.11 16.85 2.11 22.46 0l86.54-32.56c5.61-2.11 5.61-6.33 0-8.44l-86.54-32.56c-5.61-2.11-16.85-2.11-22.46 0" fill="#e8d4a9" stroke="#000"/>
+   <g font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">
+    <text x="294" y="-242.5">¿Se requiere describir</text>
+    <text x="294" y="-231.5">lógica detallada</text>
+    <text x="294" y="-220.5">y flexible?</text>
+   </g>
+  </g>
+  <g class="edge">
+   <title>B-&gt;H</title>
+   <path d="m257.65-428.24c2.85 14.14 6.34 31.59 9.35 47.24 6.31 32.8 13.15 69.81 18.37 98.35" fill="none" stroke="#000"/>
+   <polygon points="288.86 -283 287.21 -272.54 281.98 -281.75" stroke="#000"/>
+   <text x="284.5" y="-348.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">No</text>
+  </g>
+  <g class="node">
+   <title>D</title>
+   <path d="m155-252h-74c-6 0-12 6-12 12v12c0 6 6 12 12 12h74c6 0 12-6 12-12v-12c0-6-6-12-12-12" fill="#b8d6e8" stroke="#000"/>
+   <text x="118" y="-237" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Considera usar</text>
+   <text x="118" y="-226" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Diagrama de Flujo</text>
+  </g>
+  <g class="edge">
+   <title>C-&gt;D</title>
+   <path d="m126.28-321.57c-1.74 18.15-3.97 41.55-5.68 59.44" fill="none" stroke="#000"/>
+   <polygon points="124.07 -261.68 119.63 -252.05 117.1 -262.34" stroke="#000"/>
+   <text x="128.5" y="-295.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">Sí</text>
+  </g>
+  <g class="edge">
+   <title>C-&gt;H</title>
+   <path d="m160.42-328.1c24.83 17.31 59.83 41.7 87.78 61.18" fill="none" stroke="#000"/>
+   <polygon points="250.42 -269.64 256.63 -261.05 246.42 -263.89" stroke="#000"/>
+   <text x="213.5" y="-295.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">No</text>
+  </g>
+  <g class="node">
+   <title>I</title>
+   <path d="m266-135h-54c-6 0-12 6-12 12v12c0 6 6 12 12 12h54c6 0 12-6 12-12v-12c0-6-6-12-12-12" fill="#b8d6e8" stroke="#000"/>
+   <text x="239" y="-120" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Prefiere</text>
+   <text x="239" y="-109" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Pseudocódigo</text>
+  </g>
+  <g class="edge">
+   <title>H-&gt;I</title>
+   <path d="m277.65-198.81c-8.29 17.33-18.2 38.05-25.91 54.18" fill="none" stroke="#000"/>
+   <polygon points="254.73 -142.77 247.26 -135.26 248.41 -145.79" stroke="#000"/>
+   <text x="268.5" y="-167.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">Sí</text>
+  </g>
+  <g class="node">
+   <title>J</title>
+   <path d="m418.29-144.38-110.58 24.76c-5.85 1.31-5.85 3.93 0 5.24l110.58 24.76c5.85 1.31 17.57 1.31 23.42 0l110.58-24.76c5.85-1.31 5.85-3.93 0-5.24l-110.58-24.76c-5.85-1.31-17.57-1.31-23.42 0" fill="#e8d4a9" stroke="#000"/>
+   <text x="430" y="-120" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">¿Se modela un</text>
+   <text x="430" y="-109" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">sistema complejo (ej. OO)?</text>
+  </g>
+  <g class="edge">
+   <title>H-&gt;J</title>
+   <path d="m326.92-205.16c20.64 17.45 47.2 39.91 68.2 57.66" fill="none" stroke="#000"/>
+   <polygon points="397.49 -150.07 402.87 -140.94 392.97 -144.73" stroke="#000"/>
+   <text x="381.5" y="-167.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">No</text>
+  </g>
+  <g class="node">
+   <title>K</title>
+   <path d="m409-38.5h-68c-6 0-12 6-12 12v12c0 6 6 12 12 12h68c6 0 12-6 12-12v-12c0-6-6-12-12-12" fill="#b8d6e8" stroke="#000"/>
+   <text x="375" y="-23.5" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Prefiere</text>
+   <text x="375" y="-12.5" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Diagramas UML</text>
+  </g>
+  <g class="edge">
+   <title>J-&gt;K</title>
+   <path d="m414.97-90.18c-7.75 13.32-17.18 29.53-24.94 42.85" fill="none" stroke="#000"/>
+   <polygon points="393.03 -45.52 384.98 -38.64 386.98 -49.04" stroke="#000"/>
+   <text x="406.5" y="-61.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">Sí</text>
+  </g>
+  <g class="node">
+   <title>L</title>
+   <path d="m519-41h-68c-6 0-12 6-12 12v17c0 6 6 12 12 12h68c6 0 12-6 12-12v-17c0-6-6-12-12-12" fill="#b8d6e8" stroke="#000"/>
+   <g font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">
+    <text x="485" y="-29">Evalúa la</text>
+    <text x="485" y="-18">herramienta más</text>
+    <text x="485" y="-7">adecuada</text>
+   </g>
+  </g>
+  <g class="edge">
+   <title>J-&gt;L</title>
+   <path d="m445.03-90.18c7.22 12.4 15.89 27.3 23.31 40.05" fill="none" stroke="#000"/>
+   <polygon points="471.47 -51.7 473.48 -41.3 465.42 -48.18" stroke="#000"/>
+   <text x="469.5" y="-61.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">No</text>
+  </g>
+ </g>
+</svg>
