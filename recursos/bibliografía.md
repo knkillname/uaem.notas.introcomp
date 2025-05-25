@@ -27,7 +27,7 @@
 - **Descripción:** Cubre algoritmos matemáticos esenciales con un enfoque riguroso y aplicable en la computación.
 - **Relevancia:** Si alguna vez te preguntaste por qué las matemáticas y la computación son inseparables, este libro te dará las respuestas (y probablemente algunas noches sin dormir).
 
-### 6. Oetiker, T., Partl, H., Hyna, I., & Schlegl, E. (n.d.). *[La introducción no-tan-corta a $\LaTeX{} 2_ε$](https://linux-mirror.xicalcoatl.mx/ctan/info/lshort/spanish/lshort-letter.pdf)*
+### 6. Oetiker, T., Partl, H., Hyna, I., & Schlegl, E. (n.d.). *[La introducción no-tan-corta a $\LaTeX{} 2_ε$](http://mirrors.ctan.org/info/lshort/spanish/lshort-letter.pdf)*
 
 - **Descripción:** Una guía breve y práctica para aprender a usar $\LaTeX$, un sistema de preparación de documentos de alta calidad.
 - **Relevancia:** Ideal para estudiantes y profesionales que necesitan crear documentos técnicos y científicos con una presentación impecable. $\LaTeX$ es el lenguaje que usamos para este curso en cada fórmula, y vale la pena aprenderlo.
