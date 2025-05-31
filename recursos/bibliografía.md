@@ -32,7 +32,7 @@
 
 * **Relevancia:** Si alguna vez te preguntaste por qué las matemáticas y la computación son inseparables, este libro te dará las respuestas (y probablemente algunas noches sin dormir).
 
-### 6. Oetiker, T., Partl, H., Hyna, I., & Schlegl, E. (n.d.). [*La introducción no-tan-corta a*](https://linux-mirror.xicalcoatl.mx/ctan/info/lshort/spanish/lshort-letter.pdf) $\LaTeX{} 2_ε$
+### 6. Oetiker, T., Partl, H., Hyna, I., & Schlegl, E. (n.d.). [*La introducción no-tan-corta a*](https://ctan.org/pkg/lshort-spanish) $\LaTeX{} 2_\varepsilon$
 
 * **Descripción:** Una guía breve y práctica para aprender a usar $\LaTeX$, un sistema de preparación de documentos de alta calidad.
 
