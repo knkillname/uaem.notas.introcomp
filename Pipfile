@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-ipykernel = "~=6.29"
+ipykernel = "~=6.17"
 matplotlib = "~=3.10"
-numpy = "~=2.2"
+numpy = "~=2.0"
 pandas = "~=2.2"
-scipy = "~=1.14"
+scipy = "~=1.15"
 sympy = "~=1.13"
 
 [dev-packages]
@@ -19,4 +19,4 @@ pandas-stubs = "*"
 pylint = "*"
 
 [requires]
-python_version = "3.12"
+python_version = "3.11"

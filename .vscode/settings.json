@@ -1,20 +1,35 @@
 {
-    "cSpell.language": "es, en",
-    "cSpell.words": [
-        "Colab",
-        "collatz",
-        "Collatz",
-        "computólogo",
-        "Descúbrelo",
-        "Grothendieck",
-        "introcomp",
-        "ipynb",
-        "jupyter",
-        "modifícalo",
-        "pipenv",
-        "Pipenv",
-        "pipfile",
-        "Pipfile",
-        "uaem"
+    "[markdown]": {
+        "cSpell.advanced.feature.useReferenceProviderRemove": "/^#+\\s/",
+        "cSpell.advanced.feature.useReferenceProviderWithRename": true,
+        "cSpell.fixSpellingWithRenameProvider": true,
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "other": "off",
+            "strings": "off"
+        },
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "editor.wordWrap": "on"
+    },
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "always",
+            "source.organizeImports": "always"
+        },
+        "editor.defaultColorDecorators": "never",
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.rulers": [
+            88,
+            100
+        ],
+        "editor.wordBasedSuggestions": "off"
+    },
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80
     ]
 }
