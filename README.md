@@ -1,49 +1,58 @@
 # 📚 uaem.notas.introcomp: Introducción a la Computación para Estudiantes de Ciencias
 
-*¿Programar es como demostrar un teorema o más como hornear un pastel? ¿A qué sabe un código bien escrito? ¡Descúbrelo aquí!*  
-Repositorio del curso de computación para primer semestre de la licenciatura en Ciencias de la [Universidad Autónoma del Estado de Morelos](https://www.uaem.mx/) del [Dr. Mario Abarca](https://www.knkillname.org/).  
-**Nota:** Todo el material está diseñado para usarse en [Google Colab](https://colab.research.google.com). ¡Cero instalaciones requeridas! 🚀
+> *"La computación no trata sobre computadoras más que la astronomía trata sobre telescopios."*
+>
+> — Edsger Dijkstra.
+
+Este repositorio nació como el material oficial del curso de primer semestre en la Licenciatura en Ciencias de la [Universidad Autónoma del Estado de Morelos](https://www.uaem.mx/) (UAEM). Aunque mi camino profesional me ha llevado de la academia a liderar equipos de ingeniería en la industria, he decidido mantener y expandir estas notas *por puro antojo* y por una convicción profunda: la teoría de la computación es el único conocimiento que no caduca, y Python es el mejor lenguaje para experimentar con ella.
+
+¿Para quién es esto?
+
+* **Estudiantes autodidactas** que buscan rigor sin la frialdad de un libro de texto. 🧠
+* **Profesores** que necesiten una referencia de lo que se enseñó previamente en esta cátedra. 🏫
+* **Hispanohablantes** que buscan material de calidad en su idioma (porque la ciencia no debería tener barreras lingüísticas). 🇲🇽🇪🇸
+* **Mi hijo**, por si algún día decide que este laberinto de lógica es útil para su vida. ❤️
 
 ## 🌟 Contenido Detallado
 
 Este repositorio alberga una variedad de materiales para facilitar tu aprendizaje en Introducción a la Computación:
 
-- **📘 Cuadernos de Clase Principales:** El corazón del curso reside en la carpeta `cuadernos/`. Cada archivo `.ipynb` representa una clase, diseñado para ser interactivo y ejecutable directamente en Google Colab. Cubren desde la introducción hasta temas de cómputo científico.
-- **📝 Guías de Prácticas:** En la carpeta `prácticas/`, encontrarás archivos `.md` con ejercicios y guías para aplicar los conocimientos adquiridos en los cuadernos.
-- **📚 Recursos Adicionales:** La carpeta `recursos/` contiene material de apoyo crucial:
-  - `temario.md`: El plan de estudios detallado del curso. 📜
-  - `bibliografía.md`: Referencias y lecturas recomendadas para profundizar. 📖
+* **📘 Cuadernos de Clase Principales:** El corazón del curso reside en la carpeta `cuadernos/`. Cada archivo `.ipynb` representa una clase, diseñado para ser interactivo y ejecutable directamente en Google Colab. Cubren desde la introducción hasta temas de cómputo científico.
+* **📝 Guías de Prácticas:** En la carpeta `prácticas/`, encontrarás archivos `.md` con ejercicios y guías para aplicar los conocimientos adquiridos en los cuadernos.
+* **📚 Recursos Adicionales:** La carpeta `recursos/` contiene material de apoyo crucial:
+  * `temario.md`: El plan de estudios detallado del curso. 📜
+  * `bibliografía.md`: Referencias y lecturas recomendadas para profundizar. 📖
 
 ## 🚀 ¿Cómo empezar?
 
 1. **Accede a cualquier clase:**  
-   - Haz clic en el cuaderno deseado (ej: `cuadernos/01.Introducción.ipynb`).
-   - Presiona el botón ![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg) (que aparece al visualizar el cuaderno).
+   * Haz clic en el cuaderno deseado (ej: `cuadernos/01.Introducción.ipynb`).
+   * Presiona el botón ![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg) (que aparece al visualizar el cuaderno).
 2. **Ejecuta el código:**  
-   - Usa ⬆️ + ↩️ en tu teclado o el ícono ▶️ para correr celdas.
-   - **¡Listo!** No necesitas instalar nada. ✨
+   * Usa ⬆️ + ↩️ en tu teclado o el ícono ▶️ para correr celdas.
+   * **¡Listo!** No necesitas instalar nada. ✨
 
 ## ❓ Preguntas Frecuentes
 
 ### 1. *\"¿Por qué debo aprender Python si quiero ser matemático puro?\"* 🤔  
 
-- **Respuesta corta:** Porque hasta Grothendieck necesitaba herramientas. 🔧  
-- **Respuesta larga:** La programación te permite:  
-  - Simular conjeturas (ej: ¿Es cierta la conjetura de Collatz para $10^6$ números?). 💡
-  - Visualizar espacios abstractos (ej: gráficas 4D proyectadas en 2D). 🖼️
-  - *Bonus secreto:* Si te aburres, puedes programar un poema en código binario. 💻  
+* **Respuesta corta:** Porque hasta Grothendieck necesitaba herramientas. 🔧  
+* **Respuesta larga:** La programación te permite:  
+  * Simular conjeturas (ej: ¿Es cierta la conjetura de Collatz para $10^6$ números?). 💡
+  * Visualizar espacios abstractos (ej: gráficas 4D proyectadas en 2D). 🖼️
+  * *Bonus secreto:* Si te aburres, puedes programar un poema en código binario. 💻  
 
 ### 2. *"¿Me aprueba si solo veo los cuadernos desde Colab?"* 😇  
 
-- **Respuesta corta:** No. 🚫  
-- **Respuesta larga:** Nooooooooooooooooooooooooooooooooooooooooooooooooo.  
-  - **Motivo:** Ver no es igual a hacer. ¡Ejecuta el código, modifícalo, *experimenta*!  
+* **Respuesta corta:** No. 🚫  
+* **Respuesta larga:** Nooooooooooooooooooooooooooooooooooooooooooooooooo.  
+  * **Motivo:** Ver no es igual a hacer. ¡Ejecuta el código, modifícalo, *experimenta*!  
 
 ### 3. *\"¿Qué hago si mi código da error?\"* 🔥  
 
-- **Paso 1:** No entres en pánico (es normal). 🧘
-- **Paso 2:** Lee el mensaje de error (la parte roja *a veces* ayuda). 🔍
-- **Paso 3:** Usa un asistente de IA (como Gemini, Deepseek, ChatGPT, etc.) para entender el error y obtener sugerencias de solución. 🤖
+* **Paso 1:** No entres en pánico (es normal). 🧘
+* **Paso 2:** Lee el mensaje de error (la parte roja *a veces* ayuda). 🔍
+* **Paso 3:** Usa un asistente de IA (como Gemini, Deepseek, ChatGPT, etc.) para entender el error y obtener sugerencias de solución. 🤖
 
 ## 🗂️ Estructura del Repositorio
 
@@ -63,7 +72,7 @@ uaem.notas.introcomp/
 │   ├── 📄 bibliografia.md                 # Lecturas recomendadas
 │   └── ...
 ├── 📄 LICENSE                             # Licencia del proyecto
-├── 📄 Pipfile                             # Dependencias del proyecto (Python 3.11)
+├── 📄 Pipfile                             # Dependencias del proyecto (Python 3.12)
 ├── 📄 Pipfile.lock                        # Dependencias exactas (generado por Pipenv)
 └── 📄 README.md                           # Este archivo que estás leyendo
 ```
@@ -74,7 +83,7 @@ Esta sección es para aquellos que desean ejecutar los cuadernos de Jupyter en s
 
 ### Opción 1: Usando Pipenv para un Entorno Virtual de Python
 
-**¿Qué es Pipenv?** Pipenv es una herramienta que combina la gestión de paquetes (pip) con la gestión de entornos virtuales (venv). Crea un entorno aislado para tu proyecto, asegurando que las dependencias no entren en conflicto con otros proyectos de Python en tu sistema. Usaremos Python 3.11. 🐍
+**¿Qué es Pipenv?** Pipenv es una herramienta que combina la gestión de paquetes (pip) con la gestión de entornos virtuales (venv). Crea un entorno aislado para tu proyecto, asegurando que las dependencias no entren en conflicto con otros proyectos de Python en tu sistema. Usaremos Python 3.12. 🐍
 
 **Pasos:**
 
@@ -92,9 +101,9 @@ Esta sección es para aquellos que desean ejecutar los cuadernos de Jupyter en s
    pipenv install --dev
    ```
 
-   - `pipenv install` lee el archivo `Pipfile` para encontrar las dependencias necesarias (como Jupyter Lab, Pandas, etc.).
-   - `--dev` asegura que también se instalen las dependencias de desarrollo, útiles para contribuir al proyecto.
-   - Esto creará un `Pipfile.lock` (si no existe) que fija las versiones exactas de las dependencias, y un entorno virtual (generalmente dentro de `~/.local/share/virtualenvs/`).
+   * `pipenv install` lee el archivo `Pipfile` para encontrar las dependencias necesarias (como Jupyter Lab, Pandas, etc.).
+   * `--dev` asegura que también se instalen las dependencias de desarrollo, útiles para contribuir al proyecto.
+   * Esto creará un `Pipfile.lock` (si no existe) que fija las versiones exactas de las dependencias, y un entorno virtual (generalmente dentro de `~/.local/share/virtualenvs/`).
 
 3. **Activa el entorno virtual:** Para usar las dependencias instaladas, necesitas "entrar" en el entorno virtual:
 
@@ -127,25 +136,25 @@ Esta sección es para aquellos que desean ejecutar los cuadernos de Jupyter en s
 
 **Requisitos Previos:**
 
-- [Docker Desktop](https://www.docker.com/get-started) instalado y en ejecución.
-- [Visual Studio Code](https://code.visualstudio.com/) instalado.
-- La extensión "Dev Containers" de Microsoft instalada en VS Code (ID: `ms-vscode-remote.remote-containers`).
+* [Docker Desktop](https://www.docker.com/get-started) instalado y en ejecución.
+* [Visual Studio Code](https://code.visualstudio.com/) instalado.
+* La extensión "Dev Containers" de Microsoft instalada en VS Code (ID: `ms-vscode-remote.remote-containers`).
 
 **Pasos:**
 
 1. **Abre el Repositorio en VS Code:**
-   - Clona este repositorio en tu máquina.
-   - Abre la carpeta del repositorio con VS Code.
+   * Clona este repositorio en tu máquina.
+   * Abre la carpeta del repositorio con VS Code.
 
 2. **Reabre en el Contenedor:**
-   - VS Code debería detectar automáticamente el archivo `.devcontainer/devcontainer.json`.
-   - Aparecerá una notificación en la esquina inferior derecha preguntando si deseas "Reopen in Container". Haz clic en ese botón.
-   - Si no ves la notificación, puedes abrir la paleta de comandos (`Ctrl+Shift+P` o `Cmd+Shift+P`), escribir "Dev Containers: Reopen in Container" y seleccionarlo.
+   * VS Code debería detectar automáticamente el archivo `.devcontainer/devcontainer.json`.
+   * Aparecerá una notificación en la esquina inferior derecha preguntando si deseas "Reopen in Container". Haz clic en ese botón.
+   * Si no ves la notificación, puedes abrir la paleta de comandos (`Ctrl+Shift+P` o `Cmd+Shift+P`), escribir "Dev Containers: Reopen in Container" y seleccionarlo.
 
 3. **¡El Entorno se Construirá Automáticamente!** 🐳
-   - La primera vez, Docker descargará la imagen base especificada y construirá el contenedor. Esto puede tardar unos minutos.
-   - Una vez listo, VS Code se recargará y estarás trabajando *dentro* del contenedor, que ya tendrá Python, Pipenv, Jupyter y las extensiones de VS Code necesarias preinstaladas y configuradas.
-   - Puedes abrir una terminal integrada en VS Code y ejecutar `pipenv shell` seguido de `jupyter lab` como en la Opción 1, pero esta vez todo se ejecuta dentro del contenedor aislado.
+   * La primera vez, Docker descargará la imagen base especificada y construirá el contenedor. Esto puede tardar unos minutos.
+   * Una vez listo, VS Code se recargará y estarás trabajando *dentro* del contenedor, que ya tendrá Python, Pipenv, Jupyter y las extensiones de VS Code necesarias preinstaladas y configuradas.
+   * Puedes abrir una terminal integrada en VS Code y ejecutar `pipenv shell` seguido de `jupyter lab` como en la Opción 1, pero esta vez todo se ejecuta dentro del contenedor aislado.
 
 Esta opción es excelente si ya usas Docker y VS Code, ya que simplifica enormemente la configuración y asegura que todos los colaboradores tengan un entorno idéntico.
 
@@ -153,8 +162,8 @@ Esta opción es excelente si ya usas Docker y VS Code, ya que simplifica enormem
 
 Este material es libre bajo [Licencia MIT](LICENSE). Se permite:  
 
-- Usar, modificar y compartir.  
-- Hacer memes matemáticos (si son buenos, envíalos al profesor). 😎  
+* Usar, modificar y compartir.  
+* Hacer memes matemáticos (si son buenos, envíalos al profesor). 😎  
 
 *¿List@ para dominar la computación como un verdadero computólogo?*  
 **Haz clic en `cuadernos/01.Introducción.ipynb` y ¡comienza el viaje!** 🌌
