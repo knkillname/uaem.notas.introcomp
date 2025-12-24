@@ -1,5 +1,9 @@
 # Temario
 
+Como se menciona en el prólogo, este curso fue impartido en sesiones maratónicas de 5 horas cada una, con un total de 13 clases.
+Si eres un profesor o estudiante interesado en replicar este curso, puedes adaptar el contenido a un formato más tradicional de clases semanales.
+A continuación se presenta un temario detallado de las 13 clases, incluyendo los temas tratados.
+
 ## Clase 1: Introducción a la Ciencia de la Computación
 
 * **Contenido:**
@@ -40,7 +44,7 @@
   * La pila de llamadas (`call stack`): cómo gestiona Python las llamadas recursivas (`inspect.stack`, `RecursionError`).
   * Visualización de la recursión: árboles de llamadas.
   * Estudio de caso: Las Torres de Hanói.
-* **Práctica:** Exponenciación modular recursiva (Práctica 3).
+* **Práctica:** Potenciación modular recursiva (Práctica 3).
 
 ## Clase 5: Iteración: Ciclos y Generadores
 
@@ -51,6 +55,7 @@
   * Generadores: la palabra clave `yield` para producir secuencias de valores de forma perezosa.
   * El ciclo `for`: iteración sobre secuencias e iterables.
   * La función `range()` para generar secuencias numéricas.
+* **Práctica:** Verificación de un Sudoku (Práctica 4), aplicando iteración y manejo de listas anidadas.
 
 ## Clase 6: Estructuras de Datos Fundamentales
 
@@ -70,7 +75,6 @@
     * Manejo de datos estructurados y anidados.
   * Tuplas: como colecciones inmutables.
   * Concepto de mutabilidad e inmutabilidad; la función `hash`.
-* **Práctica:** Verificación de un Sudoku (Práctica 4), aplicando iteración y manejo de listas anidadas.
 
 ## Clase 7: Manejo Avanzado de Texto y Archivos
 
@@ -88,6 +92,7 @@
     * Uso de `pathlib` para manipulación de rutas.
     * Lectura y escritura de archivos de texto (uso de `with open(...)`).
     * Trabajo con formatos de datos: JSON (módulo `json`) y CSV (módulo `csv`).
+* **Práctica:** Mini-motor de recomendaciones (Práctica 5), utilizando diccionarios y conjuntos para modelar preferencias de usuarios.
 
 ## Clase 8: Programación Orientada a Objetos (OOP)
 
@@ -101,6 +106,7 @@
   * Métodos especiales (dunder methods): `__str__`, `__repr__`, `__len__`, `__add__`, `__divmod__`, etc., para personalizar el comportamiento de los objetos.
   * Clases Base Abstractas (ABCs) del módulo `collections.abc`.
   * Ejemplos prácticos: `datetime.datetime`, `fractions.Fraction`, clase `Polinomio`.
+* **Práctica:** Analizador de chat de WhatsApp (Práctica 6), modelando mensajes y conversaciones con clases.
 
 ## Clase 9: Introducción a la Algoritmia y Análisis de Complejidad
 
@@ -122,6 +128,7 @@
     * **Algoritmos Voraces (Greedy):** Decisiones óptimas locales (ej. Árbol de Expansión Mínima - Algoritmo de Prim, introducción a montículos).
     * **Programación Dinámica:** Subproblemas superpuestos y subestructura óptima, memoización (ej. Fibonacci, problema de la mochila 0/1).
   * Relación entre técnicas de diseño y estructuras de datos.
+* **Práctica:** El Poder de los Montículos (Práctica 7), implementando un heap.
 
 ## Clase 11: Fundamentos de Cómputo Científico: NumPy y Matplotlib
 
@@ -151,6 +158,7 @@
   * **SciPy**
     * Introducción general a SciPy y sus principales módulos.
     * Ejemplos prácticos seleccionados de `scipy.stats` (e.g., distribuciones, test de hipótesis simple) o `scipy.optimize` (e.g., ajuste de curvas básico, minimización de funciones).
+* **Práctica:** Análisis de Datos Científicos (Práctica 8) integrando Numpy, Pandas, SciPy, Matplotlib y SymPy.
 
 ## Clase 13: Taller de Proyecto Final y Repaso General
 
