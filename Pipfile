@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 ipykernel = "~=6.17"
 matplotlib = "~=3.10"
+matplotlib-venn = "~=1.1"
 numpy = "~=2.0"
 pandas = "~=2.2"
 scipy = "~=1.16"
