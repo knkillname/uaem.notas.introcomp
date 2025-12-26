@@ -1,0 +1,40 @@
+digraph G {
+    rankdir=TB;
+    node [fontname="Helvetica", shape=box, style="filled", color="#333333", fontcolor="#333333"];
+    edge [fontname="Helvetica", fontsize=10, color="#555555", fontcolor="#555555"];
+
+    start [label="¿Debería usar un\nDiagrama de Flujo?", shape=oval, fillcolor="#e1f5fe"];
+    
+    is_software [label="¿Es para Software\no Programación?", shape=diamond, fillcolor="#fff9c4"];
+    
+    // No path
+    use_flowchart [label="¡SÍ!\n(Ideal para procesos\nadministrativos)", shape=doubleoctagon, fillcolor="#c8e6c9", fontsize=12];
+
+    // Yes path
+    is_academic [label="¿Estás en un\ncontexto académico?", shape=diamond, fillcolor="#fff9c4"];
+
+    // Academic Path
+    is_forced [label="¿Te obliga el\nprofesor?", shape=diamond, fillcolor="#fff9c4"];
+    use_forced [label="Usa Diagrama de Flujo :(", fillcolor="#cfd8dc"];
+    use_pseudo [label="Usa Pseudocódigo", fillcolor="#ffccbc"];
+
+    // Non-Academic Path
+    is_pizza [label="¿Estás comiendo\npizza?", shape=diamond, fillcolor="#fff9c4"];
+    use_napkin [label="Usa una Servilleta", fillcolor="#ffccbc"];
+    use_uml [label="Usa UML", fillcolor="#ffccbc"];
+
+    // Edges
+    start -> is_software;
+    
+    is_software -> use_flowchart [label="No"];
+    is_software -> is_academic [label="Sí"];
+    
+    is_academic -> is_forced [label="Sí"];
+    is_academic -> is_pizza [label="No"];
+    
+    is_forced -> use_forced [label="Sí"];
+    is_forced -> use_pseudo [label="No"];
+    
+    is_pizza -> use_napkin [label="Sí"];
+    is_pizza -> use_uml [label="No"];
+}

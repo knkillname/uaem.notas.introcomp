@@ -1,119 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="572pt" height="568pt" version="1.1" viewBox="0 0 572 568" xmlns="http://www.w3.org/2000/svg">
- <g class="graph" transform="scale(1) translate(4 564)">
-  <title>Flowchart_Decision_DiagramaDeFlujo</title>
-  <polygon points="-4 4 -4 -564 568 -564 568 4" fill="#fff" stroke="transparent"/>
-  <g class="node">
-   <title>A</title>
-   <ellipse cx="252" cy="-542" rx="27" ry="18" fill="#f9f9f9" stroke="#000"/>
-   <text x="252" y="-539.5" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Inicio</text>
-  </g>
-  <g class="node">
-   <title>B</title>
-   <path d="m240.4-483.95-90.8 23.9c-5.8 1.52-5.8 4.58 0 6.1l90.8 23.9c5.8 1.52 17.4 1.52 23.2 0l90.8-23.9c5.8-1.52 5.8-4.58 0-6.1l-90.8-23.9c-5.8-1.52-17.4-1.52-23.2 0" fill="#e8d4a9" stroke="#000"/>
-   <text x="252" y="-460" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">¿Algoritmo simple y</text>
-   <text x="252" y="-449" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">secuencia primordial?</text>
-  </g>
-  <g class="edge">
-   <title>A-&gt;B</title>
-   <path d="m252-523.8v26.25" fill="none" stroke="#000"/>
-   <polygon points="255.5 -497.27 252 -487.27 248.5 -497.27" stroke="#000"/>
-  </g>
-  <g class="node">
-   <title>C</title>
-   <path d="m117.31-378.28-105.62 24.56c-5.85 1.36-5.85 4.08 0 5.44l105.62 24.56c5.85 1.36 17.53 1.36 23.38 0l105.62-24.56c5.85-1.36 5.85-4.08 0-5.44l-105.62-24.56c-5.85-1.36-17.53-1.36-23.38 0" fill="#e8d4a9" stroke="#000"/>
-   <text x="129" y="-354" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">¿Audiencia se beneficia</text>
-   <text x="129" y="-343" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">de lo visual / No experta?</text>
-  </g>
-  <g class="edge">
-   <title>B-&gt;C</title>
-   <path d="m225.61-433.69c-17.99 15.21-42.01 35.52-61.6 52.09" fill="none" stroke="#000"/>
-   <polygon points="166.09 -378.78 156.19 -374.99 161.57 -384.12" stroke="#000"/>
-   <text x="198.5" y="-401.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">Sí</text>
-  </g>
-  <g class="node">
-   <title>H</title>
-   <path d="m282.77-270.78-86.54 32.56c-5.61 2.11-5.61 6.33 0 8.44l86.54 32.56c5.61 2.11 16.85 2.11 22.46 0l86.54-32.56c5.61-2.11 5.61-6.33 0-8.44l-86.54-32.56c-5.61-2.11-16.85-2.11-22.46 0" fill="#e8d4a9" stroke="#000"/>
-   <g font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">
-    <text x="294" y="-242.5">¿Se requiere describir</text>
-    <text x="294" y="-231.5">lógica detallada</text>
-    <text x="294" y="-220.5">y flexible?</text>
-   </g>
-  </g>
-  <g class="edge">
-   <title>B-&gt;H</title>
-   <path d="m257.65-428.24c2.85 14.14 6.34 31.59 9.35 47.24 6.31 32.8 13.15 69.81 18.37 98.35" fill="none" stroke="#000"/>
-   <polygon points="288.86 -283 287.21 -272.54 281.98 -281.75" stroke="#000"/>
-   <text x="284.5" y="-348.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">No</text>
-  </g>
-  <g class="node">
-   <title>D</title>
-   <path d="m155-252h-74c-6 0-12 6-12 12v12c0 6 6 12 12 12h74c6 0 12-6 12-12v-12c0-6-6-12-12-12" fill="#b8d6e8" stroke="#000"/>
-   <text x="118" y="-237" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Considera usar</text>
-   <text x="118" y="-226" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Diagrama de Flujo</text>
-  </g>
-  <g class="edge">
-   <title>C-&gt;D</title>
-   <path d="m126.28-321.57c-1.74 18.15-3.97 41.55-5.68 59.44" fill="none" stroke="#000"/>
-   <polygon points="124.07 -261.68 119.63 -252.05 117.1 -262.34" stroke="#000"/>
-   <text x="128.5" y="-295.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">Sí</text>
-  </g>
-  <g class="edge">
-   <title>C-&gt;H</title>
-   <path d="m160.42-328.1c24.83 17.31 59.83 41.7 87.78 61.18" fill="none" stroke="#000"/>
-   <polygon points="250.42 -269.64 256.63 -261.05 246.42 -263.89" stroke="#000"/>
-   <text x="213.5" y="-295.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">No</text>
-  </g>
-  <g class="node">
-   <title>I</title>
-   <path d="m266-135h-54c-6 0-12 6-12 12v12c0 6 6 12 12 12h54c6 0 12-6 12-12v-12c0-6-6-12-12-12" fill="#b8d6e8" stroke="#000"/>
-   <text x="239" y="-120" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Prefiere</text>
-   <text x="239" y="-109" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Pseudocódigo</text>
-  </g>
-  <g class="edge">
-   <title>H-&gt;I</title>
-   <path d="m277.65-198.81c-8.29 17.33-18.2 38.05-25.91 54.18" fill="none" stroke="#000"/>
-   <polygon points="254.73 -142.77 247.26 -135.26 248.41 -145.79" stroke="#000"/>
-   <text x="268.5" y="-167.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">Sí</text>
-  </g>
-  <g class="node">
-   <title>J</title>
-   <path d="m418.29-144.38-110.58 24.76c-5.85 1.31-5.85 3.93 0 5.24l110.58 24.76c5.85 1.31 17.57 1.31 23.42 0l110.58-24.76c5.85-1.31 5.85-3.93 0-5.24l-110.58-24.76c-5.85-1.31-17.57-1.31-23.42 0" fill="#e8d4a9" stroke="#000"/>
-   <text x="430" y="-120" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">¿Se modela un</text>
-   <text x="430" y="-109" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">sistema complejo (ej. OO)?</text>
-  </g>
-  <g class="edge">
-   <title>H-&gt;J</title>
-   <path d="m326.92-205.16c20.64 17.45 47.2 39.91 68.2 57.66" fill="none" stroke="#000"/>
-   <polygon points="397.49 -150.07 402.87 -140.94 392.97 -144.73" stroke="#000"/>
-   <text x="381.5" y="-167.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">No</text>
-  </g>
-  <g class="node">
-   <title>K</title>
-   <path d="m409-38.5h-68c-6 0-12 6-12 12v12c0 6 6 12 12 12h68c6 0 12-6 12-12v-12c0-6-6-12-12-12" fill="#b8d6e8" stroke="#000"/>
-   <text x="375" y="-23.5" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Prefiere</text>
-   <text x="375" y="-12.5" font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">Diagramas UML</text>
-  </g>
-  <g class="edge">
-   <title>J-&gt;K</title>
-   <path d="m414.97-90.18c-7.75 13.32-17.18 29.53-24.94 42.85" fill="none" stroke="#000"/>
-   <polygon points="393.03 -45.52 384.98 -38.64 386.98 -49.04" stroke="#000"/>
-   <text x="406.5" y="-61.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">Sí</text>
-  </g>
-  <g class="node">
-   <title>L</title>
-   <path d="m519-41h-68c-6 0-12 6-12 12v17c0 6 6 12 12 12h68c6 0 12-6 12-12v-17c0-6-6-12-12-12" fill="#b8d6e8" stroke="#000"/>
-   <g font-family="TeX Gyre Pagella" font-size="10" text-anchor="middle">
-    <text x="485" y="-29">Evalúa la</text>
-    <text x="485" y="-18">herramienta más</text>
-    <text x="485" y="-7">adecuada</text>
-   </g>
-  </g>
-  <g class="edge">
-   <title>J-&gt;L</title>
-   <path d="m445.03-90.18c7.22 12.4 15.89 27.3 23.31 40.05" fill="none" stroke="#000"/>
-   <polygon points="471.47 -51.7 473.48 -41.3 465.42 -48.18" stroke="#000"/>
-   <text x="469.5" y="-61.8" font-family="TeX Gyre Pagella" font-size="9" text-anchor="middle">No</text>
-  </g>
- </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generated by graphviz version 2.42.4 (0)
+ -->
+<!-- Title: G Pages: 1 -->
+<svg width="665pt" height="508pt"
+ viewBox="0.00 0.00 664.50 507.68" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 503.68)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-503.68 660.5,-503.68 660.5,4 -4,4"/>
+<!-- start -->
+<g id="node1" class="node">
+<title>start</title>
+<ellipse fill="#e1f5fe" stroke="#333333" cx="141" cy="-472.81" rx="106.55" ry="26.74"/>
+<text text-anchor="middle" x="141" y="-476.61" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">¿Debería usar un</text>
+<text text-anchor="middle" x="141" y="-461.61" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">Diagrama de Flujo?</text>
+</g>
+<!-- is_software -->
+<g id="node2" class="node">
+<title>is_software</title>
+<polygon fill="#fff9c4" stroke="#333333" points="141,-408.94 0,-370.94 141,-332.94 282,-370.94 141,-408.94"/>
+<text text-anchor="middle" x="141" y="-374.74" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">¿Es para Software</text>
+<text text-anchor="middle" x="141" y="-359.74" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">o Programación?</text>
+</g>
+<!-- start&#45;&gt;is_software -->
+<g id="edge1" class="edge">
+<title>start&#45;&gt;is_software</title>
+<path fill="none" stroke="#555555" d="M141,-445.84C141,-437.69 141,-428.43 141,-419.28"/>
+<polygon fill="#555555" stroke="#555555" points="144.5,-419.07 141,-409.07 137.5,-419.07 144.5,-419.07"/>
+</g>
+<!-- use_flowchart -->
+<g id="node3" class="node">
+<title>use_flowchart</title>
+<polygon fill="#c8e6c9" stroke="#333333" points="229.28,-231.08 229.28,-260.86 167.02,-281.92 78.98,-281.92 16.72,-260.86 16.72,-231.08 78.98,-210.02 167.02,-210.02 229.28,-231.08"/>
+<polygon fill="none" stroke="#333333" points="233.27,-228.21 233.27,-263.73 167.68,-285.92 78.32,-285.92 12.73,-263.73 12.73,-228.21 78.32,-206.03 167.68,-206.03 233.27,-228.21"/>
+<text text-anchor="middle" x="123" y="-255.87" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#333333">¡SÍ!</text>
+<text text-anchor="middle" x="123" y="-242.87" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#333333">(Ideal para procesos</text>
+<text text-anchor="middle" x="123" y="-229.87" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#333333">administrativos)</text>
+</g>
+<!-- is_software&#45;&gt;use_flowchart -->
+<g id="edge2" class="edge">
+<title>is_software&#45;&gt;use_flowchart</title>
+<path fill="none" stroke="#555555" d="M135.75,-334.05C134.01,-322.19 132.05,-308.78 130.19,-296.11"/>
+<polygon fill="#555555" stroke="#555555" points="133.65,-295.53 128.73,-286.14 126.72,-296.54 133.65,-295.53"/>
+<text text-anchor="middle" x="140" y="-306.94" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#555555">No</text>
+</g>
+<!-- is_academic -->
+<g id="node4" class="node">
+<title>is_academic</title>
+<polygon fill="#fff9c4" stroke="#333333" points="414,-283.97 251,-245.97 414,-207.97 577,-245.97 414,-283.97"/>
+<text text-anchor="middle" x="414" y="-249.77" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">¿Estás en un</text>
+<text text-anchor="middle" x="414" y="-234.77" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">contexto académico?</text>
+</g>
+<!-- is_software&#45;&gt;is_academic -->
+<g id="edge3" class="edge">
+<title>is_software&#45;&gt;is_academic</title>
+<path fill="none" stroke="#555555" d="M192.67,-346.67C237.45,-326.5 302.41,-297.24 350.38,-275.63"/>
+<polygon fill="#555555" stroke="#555555" points="352.06,-278.71 359.74,-271.41 349.18,-272.33 352.06,-278.71"/>
+<text text-anchor="middle" x="291" y="-306.94" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#555555">Sí</text>
+</g>
+<!-- is_forced -->
+<g id="node5" class="node">
+<title>is_forced</title>
+<polygon fill="#fff9c4" stroke="#333333" points="260,-159 159,-121 260,-83 361,-121 260,-159"/>
+<text text-anchor="middle" x="260" y="-124.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">¿Te obliga el</text>
+<text text-anchor="middle" x="260" y="-109.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">profesor?</text>
+</g>
+<!-- is_academic&#45;&gt;is_forced -->
+<g id="edge4" class="edge">
+<title>is_academic&#45;&gt;is_forced</title>
+<path fill="none" stroke="#555555" d="M377.89,-216.14C354.41,-197.39 323.78,-172.93 299.63,-153.64"/>
+<polygon fill="#555555" stroke="#555555" points="301.7,-150.82 291.7,-147.32 297.33,-156.29 301.7,-150.82"/>
+<text text-anchor="middle" x="347" y="-180" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#555555">Sí</text>
+</g>
+<!-- is_pizza -->
+<g id="node8" class="node">
+<title>is_pizza</title>
+<polygon fill="#fff9c4" stroke="#333333" points="513,-159 379,-121 513,-83 647,-121 513,-159"/>
+<text text-anchor="middle" x="513" y="-124.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">¿Estás comiendo</text>
+<text text-anchor="middle" x="513" y="-109.8" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">pizza?</text>
+</g>
+<!-- is_academic&#45;&gt;is_pizza -->
+<g id="edge5" class="edge">
+<title>is_academic&#45;&gt;is_pizza</title>
+<path fill="none" stroke="#555555" d="M439.24,-213.62C452.24,-197.48 468.2,-177.65 481.94,-160.58"/>
+<polygon fill="#555555" stroke="#555555" points="484.95,-162.43 488.49,-152.44 479.5,-158.04 484.95,-162.43"/>
+<text text-anchor="middle" x="474" y="-180" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#555555">No</text>
+</g>
+<!-- use_forced -->
+<g id="node6" class="node">
+<title>use_forced</title>
+<polygon fill="#cfd8dc" stroke="#333333" points="216,-36 28,-36 28,0 216,0 216,-36"/>
+<text text-anchor="middle" x="122" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">Usa Diagrama de Flujo :(</text>
+</g>
+<!-- is_forced&#45;&gt;use_forced -->
+<g id="edge6" class="edge">
+<title>is_forced&#45;&gt;use_forced</title>
+<path fill="none" stroke="#555555" d="M226.59,-95.55C204.48,-79.37 175.65,-58.27 153.86,-42.32"/>
+<polygon fill="#555555" stroke="#555555" points="155.73,-39.35 145.59,-36.27 151.59,-45 155.73,-39.35"/>
+<text text-anchor="middle" x="188" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#555555">Sí</text>
+</g>
+<!-- use_pseudo -->
+<g id="node7" class="node">
+<title>use_pseudo</title>
+<polygon fill="#ffccbc" stroke="#333333" points="377.5,-36 234.5,-36 234.5,0 377.5,0 377.5,-36"/>
+<text text-anchor="middle" x="306" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">Usa Pseudocódigo</text>
+</g>
+<!-- is_forced&#45;&gt;use_pseudo -->
+<g id="edge7" class="edge">
+<title>is_forced&#45;&gt;use_pseudo</title>
+<path fill="none" stroke="#555555" d="M274.43,-88.32C280.69,-74.58 287.93,-58.68 293.9,-45.57"/>
+<polygon fill="#555555" stroke="#555555" points="297.22,-46.72 298.18,-36.17 290.85,-43.82 297.22,-46.72"/>
+<text text-anchor="middle" x="297" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#555555">No</text>
+</g>
+<!-- use_napkin -->
+<g id="node9" class="node">
+<title>use_napkin</title>
+<polygon fill="#ffccbc" stroke="#333333" points="561.5,-36 418.5,-36 418.5,0 561.5,0 561.5,-36"/>
+<text text-anchor="middle" x="490" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">Usa una Servilleta</text>
+</g>
+<!-- is_pizza&#45;&gt;use_napkin -->
+<g id="edge8" class="edge">
+<title>is_pizza&#45;&gt;use_napkin</title>
+<path fill="none" stroke="#555555" d="M505.08,-85.24C502.17,-72.44 498.91,-58.15 496.18,-46.12"/>
+<polygon fill="#555555" stroke="#555555" points="499.56,-45.2 493.92,-36.23 492.73,-46.76 499.56,-45.2"/>
+<text text-anchor="middle" x="506" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#555555">Sí</text>
+</g>
+<!-- use_uml -->
+<g id="node10" class="node">
+<title>use_uml</title>
+<polygon fill="#ffccbc" stroke="#333333" points="656.5,-36 579.5,-36 579.5,0 656.5,0 656.5,-36"/>
+<text text-anchor="middle" x="618" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00" fill="#333333">Usa UML</text>
+</g>
+<!-- is_pizza&#45;&gt;use_uml -->
+<g id="edge9" class="edge">
+<title>is_pizza&#45;&gt;use_uml</title>
+<path fill="none" stroke="#555555" d="M542.81,-91.33C558.61,-76.13 577.8,-57.67 592.84,-43.2"/>
+<polygon fill="#555555" stroke="#555555" points="595.51,-45.49 600.29,-36.04 590.65,-40.45 595.51,-45.49"/>
+<text text-anchor="middle" x="589" y="-57" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#555555">No</text>
+</g>
+</g>
 </svg>
