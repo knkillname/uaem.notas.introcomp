@@ -4,14 +4,18 @@
 >
 > — Edsger Dijkstra.
 
-Este repositorio nació como el material oficial del curso de primer semestre en la Licenciatura en Ciencias de la [Universidad Autónoma del Estado de Morelos](https://www.uaem.mx/) (UAEM). Aunque mi camino profesional me ha llevado de la academia a liderar equipos de ingeniería en la industria, he decidido mantener y expandir estas notas *por puro antojo* y por una convicción profunda: la teoría de la computación es el único conocimiento que no caduca, y Python es el mejor lenguaje para experimentar con ella.
+Este repositorio contiene el material completo del curso de **Introducción a la Computación**, diseñado originalmente para la Licenciatura en Ciencias de la [Universidad Autónoma del Estado de Morelos](https://www.uaem.mx/) (UAEM).
 
-¿Para quién es esto?
+Aunque nació en la academia, este proyecto ha evolucionado. Hoy, desde mi perspectiva como **Líder Técnico en la industria**, mantengo y actualizo estas notas con una convicción clara: **la teoría de la computación es el único conocimiento que no caduca**, y Python es el mejor laboratorio para entenderla.
 
-* **Estudiantes autodidactas** que buscan rigor sin la frialdad de un libro de texto. 🧠
-* **Profesores** que necesiten una referencia de lo que se enseñó previamente en esta cátedra. 🏫
-* **Hispanohablantes** que buscan material de calidad en su idioma (porque la ciencia no debería tener barreras lingüísticas). 🇲🇽🇪🇸
-* **Mi hijo**, por si algún día decide que este laberinto de lógica es útil para su vida. ❤️
+Aquí no encontrarás "tutoriales rápidos", sino una inmersión profunda en los fundamentos que distinguen a un programador de un verdadero científico de la computación.
+
+## ¿Para quién es esto?
+
+* **Autodidactas serios** que buscan el rigor universitario combinado con el pragmatismo de la industria. 🧠
+* **Estudiantes de ciencias e ingeniería** que quieren ir más allá del temario oficial. 🚀
+* **Profesores** que buscan inspiración o material de referencia para sus propias cátedras. 🏫
+* **Cualquier persona** que quiera entender *cómo* piensan las máquinas, no solo cómo usarlas. 🤖
 
 ## 🌟 Contenido Detallado
 
@@ -42,11 +46,11 @@ Este repositorio alberga una variedad de materiales para facilitar tu aprendizaj
   * Visualizar espacios abstractos (ej: gráficas 4D proyectadas en 2D). 🖼️
   * *Bonus secreto:* Si te aburres, puedes programar un poema en código binario. 💻  
 
-### 2. *"¿Me aprueba si solo veo los cuadernos desde Colab?"* 😇  
+### 2. *"¿Basta con leer los cuadernos para aprender?"* 📖
 
-* **Respuesta corta:** No. 🚫  
-* **Respuesta larga:** Nooooooooooooooooooooooooooooooooooooooooooooooooo.  
-  * **Motivo:** Ver no es igual a hacer. ¡Ejecuta el código, modifícalo, *experimenta*!  
+* **Respuesta corta:** No. 🚫
+* **Respuesta larga:** La programación es un deporte de contacto.
+  * **Motivo:** Ver código no es lo mismo que entenderlo. Tienes que ejecutarlo, romperlo, ver los errores y volverlo a armar. ¡Ensúciate las manos!  
 
 ### 3. *\"¿Qué hago si mi código da error?\"* 🔥  
 
@@ -160,10 +164,10 @@ Esta opción es excelente si ya usas Docker y VS Code, ya que simplifica enormem
 
 ## 📜 Licencia
 
-Este material es libre bajo [Licencia MIT](LICENSE). Se permite:  
+Este material es libre bajo [Licencia MIT](LICENSE). Se permite:
 
-* Usar, modificar y compartir.  
-* Hacer memes matemáticos (si son buenos, envíalos al profesor). 😎  
+* Usar, modificar y compartir.
+* Hacer memes matemáticos (si son buenos, compártelos con el mundo). 😎
 
-*¿List@ para dominar la computación como un verdadero computólogo?*  
+*¿List@ para dominar la computación como un verdadero científico?*
 **Haz clic en `cuadernos/01.Introducción.ipynb` y ¡comienza el viaje!** 🌌
