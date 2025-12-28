@@ -1,128 +1,129 @@
-# Bibliografía Comentada para el Curso de Computación
+# 📚 Bibliografía y Recursos Completos del Curso
 
-## 📚 Libros
+Este compendio combina el rigor académico con las herramientas prácticas de la industria moderna. No es una lista estática, sino un ecosistema diseñado para "abrir mentes", fomentar la soberanía tecnológica y desarrollar el pensamiento sistemático en cualquier persona interesada en la creación digital.
 
-### 1. Downey, A. B. (2024). [*Think Python: How to Think Like a Computer Scientist*](https://greenteapress.com/wp/think-python-3rd-edition/) (3rd ed.). O'Reilly Media
+## 🚀 Requisito Principal y Entorno de Trabajo
 
-* **Descripción:** Un enfoque basado en la resolución de problemas para aprender Python, con un énfasis en la computación científica.
+### [Google Colaboratory](https://colab.research.google.com/)
 
-* **Relevancia:** Si quieres aprender Python sin sufrir más que con una demostración de límites en cálculo, este libro es para ti. Es perfecto para entender la lógica detrás del código sin morir en el intento.
+**Relevancia**: Este es el **único requisito técnico** indispensable para el curso. Es un entorno de Jupyter en la nube que permite ejecutar Python y renderizar **LaTeX** nativamente sin necesidad de instalaciones locales. Actúa como tu laboratorio principal donde la teoría de los cuadernos se convierte en experimentación real. Democratiza el acceso al cómputo científico permitiendo que cualquier computadora con un navegador sea una estación de trabajo potente.
 
-### 2. Galaviz Casas, J. (2003). [*Elogio de la Pereza*](https://tienda.fciencias.unam.mx/es/inicio/155-elogio-de-la-pereza.html). Prensas de Ciencias, UNAM
+## 📖 Libros
 
-* **Descripción:** Un pequeño libro acerca de las ideas matemáticas que dan origen a la computación, las computadoras y tecnologías como el Internet: es la computación en perspectiva histórica.
+### 1. Downey, A. B. (2024). [*Think Python*](https://greenteapress.com/wp/think-python-3rd-edition/)
 
-* **Relevancia:** Un recordatorio de que la computación no nació ayer y que, en el fondo, se basa en ideas matemáticas que ya llevaban siglos rondando. Perfecto para cuando necesites justificar por qué la historia también es importante.
+**Relevancia**: Este texto es la principal fuente de inspiración pedagógica de este repositorio; gran parte de la metodología de "pensar como un científico" empleada en estas notas proviene de este libro. Es una guía excepcional que utiliza la resolución de problemas para enseñar Python con un enfoque pragmático y sumamente claro para perfiles de cualquier disciplina.
 
-### 3. Ferreira Filho, W. (2017). [*Computer Science Distilled: Learn the Art of Solving Computational Problems*](https://code.energy/computer-science-distilled/). Code Energy
+### 2. Galaviz Casas, J. (2003). [*Elogio de la Pereza*](https://tienda.fciencias.unam.mx/es/inicio/155-elogio-de-la-pereza.html)
 
-* **Descripción:** Un libro conciso y directo sobre los principios fundamentales de la computación, algoritmos y estructuras de datos.
+**Relevancia**: Una obra esencial que recorre las ideas matemáticas que dieron origen a la computación moderna. Nos recuerda que programar es una victoria de la elegancia lógica sobre el esfuerzo bruto; es fundamental para entender que la computación es una disciplina intelectual antes que una simple técnica de oficina.
 
-* **Relevancia:** Para cuando necesites entender cómo resolver problemas computacionales sin enredarte con teoría innecesaria. Breve, directo y sin rodeos.
+### 3. Ferreira Filho, W. (2017). [*Computer Science Distilled*](https://code.energy/computer-science-distilled/)
 
-### 4. Johnsonbaugh, R. (2005). *Matemáticas Discretas* (6.ª ed.). Pearson
+**Relevancia**: Funciona como un resumen ejecutivo de los principios fundamentales de la computación y estructuras de datos. Ideal para entender la esencia de la ingeniería de software y el diseño de algoritmos sin el ruido académico excesivo.
 
-* **Descripción:** Un libro que explora las bases matemáticas de la computación, cubriendo  temas esenciales como lógica, conjuntos, relaciones y teoría de grafos.
+### 4. Johnsonbaugh, R. (2005). *Matemáticas Discretas*
 
-* **Relevancia:** Si alguna vez te preguntaste por qué los matemáticos tienen tanto que  decir en computación, este libro es la respuesta. Ideal para conectar  las matemáticas con la programación sin perderse en demostraciones  kilométricas.
+**Relevancia**: Explora los cimientos matemáticos (lógica, conjuntos, grafos) indispensables para construir sistemas modernos. Es el mapa del territorio donde viven los algoritmos y la base para cualquier estudio serio en la resolución lógica de problemas.
 
-### 5. Hougardy, S., & Vygen, J. (2016). [*Algorithmic Mathematics*](https://link.springer.com/book/10.1007/978-3-319-39558-6). Springer
+### 5. Stallman, R. M. (2004). [*Software libre para una sociedad libre*](https://www.gnu.org/philosophy/fsfs/free_software.es.pdf)
 
-* **Descripción:** Cubre algoritmos matemáticos esenciales con un enfoque riguroso y aplicable en la computación.
+**Relevancia**: El manifiesto ético y político del movimiento FOSS. Define las cuatro libertades esenciales y explica por qué el acceso al código fuente no es solo una preferencia técnica, sino un derecho fundamental para la transparencia, la educación y la libertad social en la era digital.
 
-* **Relevancia:** Si alguna vez te preguntaste por qué las matemáticas y la computación son inseparables, este libro te dará las respuestas (y probablemente algunas noches sin dormir).
+### 6. Oetiker, T., et al. [*La introducción no-tan-corta a LaTeX 2e*](https://ctan.org/pkg/lshort-spanish)
 
-### 6. Oetiker, T., Partl, H., Hyna, I., & Schlegl, E. (n.d.). [*La introducción no-tan-corta a*](https://ctan.org/pkg/lshort-spanish) $\LaTeX{} 2_\varepsilon$
-
-* **Descripción:** Una guía breve y práctica para aprender a usar $\LaTeX$, un sistema de preparación de documentos de alta calidad.
-
-* **Relevancia:** Ideal para estudiantes y profesionales que necesitan crear documentos técnicos y científicos con una presentación impecable. $\LaTeX$ es el lenguaje que usamos para este curso en cada fórmula, y vale la pena aprenderlo.
+**Relevancia**: Aunque este manual está orientado a la creación de documentos profesionales, para los fines de este curso es la guía definitiva para dominar la **sintaxis de marcado matemático**. Es un recurso indispensable para aprender a escribir fórmulas complejas dentro de celdas Markdown en Jupyter y Google Colab, garantizando que tus anotaciones técnicas sean legibles y profesionales.
 
 ## 📄 Artículos
 
-### 1. Dijkstra, E. W. (1968). [*Go To Statement Considered Harmful*](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf). Communications of the ACM
+### 1. [Go To Statement Considered Harmful](https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf) (Dijkstra)
 
-* **Descripción:** Una carta al editor que argumentó en contra del uso indiscriminado de la instrucción `goto`, impulsando la programación estructurada.
+**Relevancia**: El documento que impulsó la programación estructurada y la elegancia estructural en el diseño de software.  
 
-* **Relevancia:** Te enseña por qué escribir código como espagueti no es buena idea. Un clásico para aspirar a la elegancia y claridad en tus programas, piedra angular de la ingeniería de software moderna.
+### 2. [No Silver Bullet](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf) (Brooks)
 
-### 2. Brooks, Jr., F. P. (1987). [*No Silver Bullet – Essence and Accident in Software Engineering*](http://worrydream.com/refs/Brooks-NoSilverBullet.pdf). IEEE Computer.
+**Relevancia**: Un análisis realista sobre la complejidad inherente al software y por qué la colaboración abierta es la mejor defensa :contra la obsolescencia.  
 
-* **Descripción:** Argumenta que no hay soluciones mágicas para resolver la complejidad inherente al desarrollo de software, distinguiendo entre dificultad esencial y accidental.
+### 3. [Computational Thinking](https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf) (Wing)
 
-* **Relevancia:** Una dosis de realismo crucial para cualquiera que desarrolle software. Ayuda a entender por qué la ingeniería de software es difícil y por qué no hay "balas de plata".
+**Relevancia**: Postula el pensamiento computacional como una habilidad universal aplicable a cualquier actividad cotidiana que requiera r:esolución estructurada de problemas.  
 
-### 3. Turing, A. M. (1936). [*On Computable Numbers, with an Application to the Entscheidungsproblem*](https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf). Proceedings of the London Mathematical Society
+### 4. [The Incompleteness Theorem](https://www.ams.org/journals/notices/200604/fea-davis.pdf) (Davis)
 
-* **Descripción:** El artículo seminal que introdujo la Máquina de Turing y sentó las bases teóricas de la computabilidad.
+**Relevancia**: Explica los límites de lo que es computable, conectando la lógica de Gödel con la teoría fundamental de Turing.  
 
-* **Relevancia:** Para entender los límites fundamentales de lo que el software puede lograr. Es el Génesis de la ciencia de la computación y define el terreno de juego de la ingeniería de software.
+## 🕹️ Experiencias Interactivas
 
-### 4. Wing, J. M. (2006). [*Computational Thinking*](https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf). Communications of the ACM.
+### 1. [Project Euler](https://projecteuler.net/)
 
-* **Descripción:** Postula el pensamiento computacional como una habilidad fundamental para todos, aplicable a la resolución de problemas en diversas áreas.
+**Relevancia**: Serie de desafíos que requieren pensamiento lógico y matemático para ser resueltos mediante código. Refuerza la visión de la programación como una herramienta de descubrimiento y experimentación.
 
-* **Relevancia:** Te convencerá de que aprender a programar te enseña una forma de pensar y resolver problemas aplicable universalmente, esencial para la ingeniería de cualquier tipo de sistema.
+### 2. [LeetCode](https://leetcode.com/)
 
-### 5. Licklider, J.C.R. (1960). [*Man-Computer Symbiosis*](http://worrydream.com/refs/Licklider%20-%20Man-Computer%20Symbiosis.pdf). IRE Transactions on Human Factors in Electronics.
+**Relevancia**: La plataforma de referencia para practicar algoritmos y estructuras de datos bajo estándares industriales. Funciona como un gimnasio mental para medir habilidades de resolución de problemas a escala global.
 
-* **Descripción:** Visiona una futura colaboración estrecha entre humanos y computadoras, donde las máquinas asisten en el proceso de pensamiento y toma de decisiones.
+### 3. [Human Resource Machine](https://tomorrowcorporation.com/humanresourcemachine) (Videojuego)
 
-* **Relevancia:** Fundamental para pensar en la interacción humano-computadora y el diseño de sistemas que realmente potencien al usuario, un aspecto clave de la ingeniería de software centrada en el humano.
+**Relevancia**: Aunque presenta una **Arquitectura Harvard** (instrucciones y datos separados), es el mejor simulador para entender el flujo lógico de un procesador de bajo nivel. Ideal para aterrizar los conceptos de la **Little Man Computer (LMC)** antes de programar en lenguajes de alto nivel.
 
-### 6. O'Reilly, T. (2005). [*What Is Web 2.0*](https://www.oreilly.com/pub/a/web2/archive/what-is-web-20.html). O'Reilly Media.
+### 4. [Python Tutor](https://pythontutor.com/)
 
-* **Descripción:** Define y populariza el concepto de la Web 2.0, enfocada en la interactividad, colaboración y el usuario como generador de contenido.
+**Relevancia**: Una herramienta indispensable para visualizar la ejecución paso a paso del código y la **pila de llamadas (call stack)**. Es crítica para entender la recursividad y cómo se mueven los datos en la memoria de la computadora.
 
-* **Relevancia:** Para entender la evolución de las arquitecturas de software hacia plataformas y servicios, y cómo la ingeniería de software se adaptó para construir aplicaciones web modernas y colaborativas.
+### 5. [Regex101](https://regex101.com/)
 
-### 7. Bush, V. (1945). [*As We May Think*](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/). The Atlantic Monthly.
+**Relevancia**: El laboratorio definitivo para practicar expresiones regulares. Ofrece explicaciones línea por línea de cada patrón, desmitificando el uso del módulo re para la manipulación de texto.
 
-* **Descripción:** Propone el "Memex", un dispositivo conceptual precursor del hipertexto y la web, para gestionar la información personal y científica.
+## 🎬 Material Audiovisual
 
-* **Relevancia:** Para ver que la idea de tener toda la información interconectada y accesible no es nueva. Inspirador para pensar en sistemas de gestión del conocimiento y la información.
+### 1. [No aprendas a programar para ser programador](https://youtu.be/RQXGjIumzXY) (Cristiana Marcu)
 
-### 8. Weiser, M. (1991). [*The Computer for the 21st Century*](https://www.ics.uci.edu/~corps/phaseii/Weiser-Computer21stCentury-SciAm.pdf). Scientific American.
+**Relevancia**: Presenta la programación como el puente que une diversas pasiones profesionales. Cristiana argumenta que el código es un lenguaje vital en nuestras vidas modernas que trasciende el ámbito técnico, permitiéndonos integrar pasiones y resolver problemas en cualquier campo.
 
-* **Descripción:** Introduce el concepto de "computación ubicua", donde la tecnología se integra invisiblemente en nuestro entorno.
+### 2. [What the Tech Industry Has Learned from Linus Torvalds](https://youtu.be/7XTHdcmjenI) (Jim Zemlin)
 
-* **Relevancia:** Te hará pensar en el diseño de software para contextos más allá del escritorio, considerando la interacción con múltiples dispositivos y entornos inteligentes.
+**Relevancia**: En esta charla, Zemlin destaca lecciones fundamentales como "No sueñes en grande" (enfocarse en la pasión, no solo en el éxito), el poder de "Regalarlo todo" y el éxito de "No tener un plan". Enfatiza la innovación rápida y el espíritu colaborativo que construyó Linux, demostrando que los modelos abiertos crean más valor que los cerrados.
 
-### 9. Davis, M. (2006). [*The Incompleteness Theorem*](https://www.ams.org/journals/notices/200604/fea-davis.pdf). Notices of the AMS, Volume 53, Number 4, pp. 414-418.
+### 3. [Keynote: Python as a tool for teaching, learning, and research](https://youtu.be/RQXGjIumzXY) (Jake Vanderplas)
 
-* **Descripción:** Martin Davis, una figura clave en la lógica matemática y la teoría de la computabilidad, ofrece una lúcida explicación de los Teoremas de Incompletitud de Gödel y su profundo impacto en la comprensión de los límites de los sistemas formales y, por extensión, de la computación.
-* **Relevancia:** Esencial para que los estudiantes de ciencias comprendan las limitaciones inherentes no solo de las computadoras, sino de cualquier sistema formal lo suficientemente potente como para describir la aritmética. Conecta directamente con las ideas de Turing sobre lo computable y ayuda a apreciar la profundidad de los fundamentos lógicos de la computación.
+**Relevancia**: La historia de Python contada como el medio definitivo para la educación y el descubrimiento. Jake postula que el lenguaje no es un fin en sí mismo, sino una herramienta de alfabetismo que empodera a cualquier persona para investigar y aprender.
 
-## 🌐 Recursos en Línea
+### 4. [Computer Science Crash Course](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) (YouTube)
 
-### 1. Google. (n.d.). [*Google Colaboratory*](https://colab.research.google.com/)
+**Relevancia**: Serie visual definitiva para entender desde hardware básico hasta redes y algoritmos de forma amena y didáctica para todo público.
 
-* **Descripción:** Entorno gratuito de Jupyter Notebooks en la nube, ideal para ejecutar código Python sin configuraciones complejas.
+### 5. AlphaGo (2017)
 
-* **Relevancia:** Tu salvavidas si tu computadora es una tostadora o si simplemente te da pereza instalar cosas. ¡Programa desde cualquier lugar!
+**Relevancia**: Una clase magistral sobre el poder de los algoritmos enfrentando problemas de complejidad extrema, ilustrando la frontera actual de la inteligencia artificial.
 
-### 2. Python Software Foundation. (n.d.). [*Documentación Oficial de Python*](https://docs.python.org/es/3.13/)
+### 6. The Imitation Game (2014)
 
-* **Descripción:** La fuente de verdad para todo lo relacionado con Python y sus bibliotecas estándar, disponible en español.
+**Relevancia**: Película fundamental para entender la vida de Alan Turing y el concepto de la Máquina Universal.  
 
-* **Relevancia:** Cuando Stack Overflow te confunda más, aquí encontrarás las respuestas directas del fabricante. Indispensable.
+### 7. Hidden Figures (2016)
 
-### 3. LeetCode. (n.d.). [*LeetCode*](https://leetcode.com/)
+**Relevancia**: Destaca el papel del genio lógico humano antes del silicio, recordando que la computación es una disciplina intelectual universal.
 
-* **Descripción:** Plataforma popular con una vasta colección de problemas de codificación para practicar algoritmos y estructuras de datos, muy usada en preparación para entrevistas técnicas.
+## 🤖 Herramientas de Inteligencia Artificial (LLMs)
 
-* **Relevancia:** Para entrenar tus músculos de codificación, prepararte para resolver problemas tipo entrevista y ver cómo te mides contra otros. Un gimnasio para programadores.
+Estas herramientas son fundamentales para realizar los ejercicios de *"Discusión"* que aparecen en los cuadernos. Su objetivo es actuar como un *tutor de goma* o interlocutor crítico para contrastar tu propia lógica y diseño. Los siguientes modelos son algunas de las recomendaciones sugeridas para realizar dichas actividades:
 
-## 🎥 Videos y Cursos
+### 1. [Llama](https://llama.meta.com/) (Meta)
 
-### 1. PBS Digital Studios. (n.d.). [*Computer Science Crash Course*](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
+**Relevancia**: El estandarte de los modelos de "pesos abiertos". Permite una soberanía tecnológica real al poder ejecutarse localmente en tu propia computadora (vía [Ollama](https://ollama.com/) o [LM Studio](https://lmstudio.ai/)). Es la opción definitiva para quienes priorizan la privacidad absoluta y la independencia tecnológica.
 
-* **Descripción:** Serie de videos animados que explican conceptos fundamentales de la ciencia de la computación de forma clara y entretenida.
+### 2. [Deepseek](https://www.deepseek.com/)
 
-* **Relevancia:** Si prefieres aprender viendo videos con dibujitos en lugar de leer textos densos, esta es tu mejor opción para una introducción rápida y amena.
+**Relevancia**: Modelo con alto desempeño en tareas de programación y razonamiento puro. Es un interlocutor valioso para discutir optimizaciones de algoritmos.
 
-### 2. Melfi, T. (Director). (2016). *Hidden Figures* \[Película\]. 20th Century Fox
+### 3. [Gemini](https://gemini.google.com/) (Google)
 
-* **Descripción:** Película basada en la historia real de tres matemáticas afroamericanas cruciales en los inicios de la NASA y la carrera espacial.
+**Relevancia**: Modelo integrado con el ecosistema de Google y Colab. Su capacidad para razonar sobre contextos diversos y su acceso a información actualizada lo hacen ideal para profundizar en cualquier tema del curso.
 
-* **Relevancia:** Te recordará que antes de las máquinas, las "computadoras" eran personas increíblemente talentosas. Una dosis de inspiración y perspectiva histórica.
+### 4. [ChatGPT](https://chatgpt.com/) (OpenAI)
+
+**Relevancia**: Herramienta versátil para la depuración de lógica algorítmica y la explicación sencilla de conceptos complejos de Python.
+
+### 5. [Microsoft Copilot](https://copilot.microsoft.com/) & [Perplexity AI](https://www.perplexity.ai/)
+
+**Relevancia**: Herramientas que citan fuentes en tiempo real y referencian documentación oficial, minimizando la desinformación durante la investigación técnica.
